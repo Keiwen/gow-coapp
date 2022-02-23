@@ -1,0 +1,81 @@
+@import "bootstrap/scss/_functions";
+@import "bootstrap/scss/_mixins";
+
+$font-size-base: 0.8rem;
+@import "bootstrap/scss/_variables";
+$primary: #584F26;
+$secondary: #5750BA;
+$success: #429321;
+$info: #00A2FB;
+$warning: #929227;
+$danger: #C6303E;
+$light: $gow-lighter;
+$dark: $gow-darker;
+$color-contrast-dark: $dark;
+$color-contrast-light: $light;
+$link-color: #3DB1FD;
+$input-bg: $gow-dark;
+$input-focus-bg: $input-bg;
+$input-color: $gow-light;
+$input-focus-color: $input-color;
+$form-select-bg: $input-bg;
+$form-select-color: $input-color;
+$nav-link-color: $gow-light;
+$navbar-light-color: $gow-light;
+$navbar-dark-brand-color: $gow-light;
+$navbar-light-brand-color: $gow-light;
+$nav-tabs-border-color: $gow-light;
+$navbar-padding-y: 0;
+$form-floating-height: add(2.2rem, $input-height-border);
+$form-floating-padding-y: 0.5rem;
+$form-floating-input-padding-t: 1.2rem;
+$form-floating-input-padding-b: .5rem;
+$table-color: $gow-light;
+$table-striped-color: $table-color;
+$table-hover-color: $gow-lighter;
+$table-hover-bg: $gow-darker;
+$table-border-width: 1px;
+$table-group-separator-color: $gow-lighter;
+
+$theme-colors: ( 'primary': $primary, 'secondary': $secondary, 'success': $success, 'info': $info, 'warning': $warning, 'danger': $danger, 'light': $light, 'dark': $dark);
+
+@import "bootstrap/scss/_utilities";
+
+// Layout & components
+@import "bootstrap/scss/_root";
+@import "bootstrap/scss/_reboot";
+@import "bootstrap/scss/_type";
+@import "bootstrap/scss/_images";
+@import "bootstrap/scss/_containers";
+@import "bootstrap/scss/_grid";
+@import "bootstrap/scss/_tables";
+@import "bootstrap/scss/_forms";
+@import "bootstrap/scss/_buttons";
+@import "bootstrap/scss/_transitions";
+@import "bootstrap/scss/_dropdown";
+@import "bootstrap/scss/_button-group";
+@import "bootstrap/scss/_nav";
+@import "bootstrap/scss/_navbar";
+// @import "bootstrap/scss/_card";
+// @import "bootstrap/scss/_accordion";
+// @import "bootstrap/scss/_breadcrumb";
+// @import "bootstrap/scss/_pagination";
+@import "bootstrap/scss/_badge";
+// @import "bootstrap/scss/_alert";
+// @import "bootstrap/scss/_progress";
+@import "bootstrap/scss/_list-group";
+@import "bootstrap/scss/_close";
+// @import "bootstrap/scss/_toasts";
+@import "bootstrap/scss/_modal";
+// @import "bootstrap/scss/_tooltip";
+// @import "bootstrap/scss/_popover";
+// @import "bootstrap/scss/_carousel";
+// @import "bootstrap/scss/_spinners";
+@import "bootstrap/scss/_offcanvas";
+@import "bootstrap/scss/_placeholders";
+
+// Helpers
+@import "bootstrap/scss/_helpers";
+
+// Utilities
+@import "bootstrap/scss/utilities/_api";

@@ -1,0 +1,35 @@
+$gow-dark: #2B2B2B;
+$gow-darker: #121315;
+$gow-light: #D5D5D5;
+$gow-lighter: #FDFDFD;
+
+:root {
+    --main-color: #{$gow-light};
+    --main-bg: #{$gow-dark};
+    --primary: #584F26;
+    --secondary: #5750BA;
+    --success: #429321;
+    --info: #00A2FB;
+    --warning: #929227;
+    --danger: #c6303e;
+    --light: #{$gow-lighter};
+    --dark: #{$gow-darker};
+    --link-color: #3DB1FD;
+    --border-radius: 50px;
+
+    .btn {
+        color: var(--light);
+
+        &.btn-light {
+            color: var(--dark);
+        }
+
+        &.btn-dark {
+            color: var(--light);
+        }
+    }
+}
+
+@import '_bootstrap';
+@import '_mixins';
+@import 'main';

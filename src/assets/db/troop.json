@@ -1,0 +1,602 @@
+{
+	"alchemist": {
+		"color1": "red",
+		"color2": "brown",
+		"color3": null,
+		"kingdom": "adana",
+		"delve": null,
+		"type1": "human",
+		"type2": null,
+		"role": "generator"
+	},
+	"alderfather": {
+		"color1": "green",
+		"color2": "purple",
+		"color3": null,
+		"kingdom": "forest of thorns",
+		"delve": "primal rift",
+		"type1": "elemental",
+		"type2": "fey",
+		"role": "warmaster"
+	},
+	"apothecary": {
+		"color1": "blue",
+		"color2": "green",
+		"color3": null,
+		"kingdom": "khaziel",
+		"delve": null,
+		"type1": "dwarf",
+		"type2": "mystic",
+		"role": "generator"
+	},
+	"beastmaster torbern": {
+		"color1": "red",
+		"color2": "brown",
+		"color3": null,
+		"kingdom": "urskaya",
+		"delve": "werewoods",
+		"type1": "beast",
+		"type2": "human",
+		"role": "warmaster"
+	},
+	"charonas": {
+		"color1": "blue",
+		"color2": "brown",
+		"color3": null,
+		"kingdom": "maugrim woods",
+		"delve": "hell gate",
+		"type1": "daemon",
+		"type2": "undead",
+		"role": "generator"
+	},
+	"chief dargon": {
+		"color1": "red",
+		"color2": "yellow",
+		"color3": null,
+		"kingdom": "khetar",
+		"delve": "fang moor",
+		"type1": "naga",
+		"type2": "monster",
+		"role": "defender"
+	},
+	"child of summer": {
+		"color1": "green",
+		"color2": "yellow",
+		"color3": null,
+		"kingdom": "bright forest",
+		"delve": null,
+		"type1": "fey",
+		"type2": null,
+		"role": "generator"
+	},
+	"death": {
+		"color1": "blue",
+		"color2": "red",
+		"color3": "purple",
+		"kingdom": "apocalypse",
+		"delve": null,
+		"type1": "daemon",
+		"type2": "undead",
+		"role": "warlock"
+	},
+	"divine ishbaala": {
+		"color1": "yellow",
+		"color2": "purple",
+		"color3": null,
+		"kingdom": "leonis empire",
+		"delve": null,
+		"type1": "divine",
+		"type2": "human",
+		"role": "warmaster"
+	},
+	"divinia": {
+		"color1": "red",
+		"color2": "yellow",
+		"color3": null,
+		"kingdom": "dragon's claw",
+		"delve": null,
+		"type1": "divine",
+		"type2": "dragon",
+		"role": "generator"
+	},
+	"egg thief": {
+		"color1": "green",
+		"color2": "red",
+		"color3": null,
+		"kingdom": "dragon's claw",
+		"delve": null,
+		"type1": "human",
+		"type2": "rogue",
+		"role": "generator"
+	},
+	"emperinazara": {
+		"color1": "green",
+		"color2": "brown",
+		"color3": null,
+		"kingdom": "khaziel",
+		"delve": "emperinazar",
+		"type1": "goblin",
+		"type2": "naga",
+		"role": "warmaster"
+	},
+	"gimlet stormbrew": {
+		"color1": "red",
+		"color2": "yellow",
+		"color3": null,
+		"kingdom": "khaziel",
+		"delve": null,
+		"type1": "dwarf",
+		"type2": null,
+		"role": "generator"
+	},
+	"glaycion": {
+		"color1": "purple",
+		"color2": "brown",
+		"color3": null,
+		"kingdom": "dhrak-zum",
+		"delve": null,
+		"type1": "daemon",
+		"type2": "monster",
+		"role": "defender"
+	},
+	"hive mind": {
+		"color1": "yellow",
+		"color2": "purple",
+		"color3": null,
+		"kingdom": "dhrak-zum",
+		"delve": "illithia",
+		"type1": "monster",
+		"type2": null,
+		"role": "support"
+	},
+	"indrajit": {
+		"color1": "red",
+		"color2": "purple",
+		"color3": null,
+		"kingdom": "pridelands",
+		"delve": "indrajit's palace",
+		"type1": "daemon",
+		"type2": "raksha",
+		"role": "mage"
+	},
+	"judge of the dead": {
+		"color1": "purple",
+		"color2": "brown",
+		"color3": null,
+		"kingdom": "maugrim woods",
+		"delve": "hell gate",
+		"type1": "daemon",
+		"type2": "undead",
+		"role": "mage"
+	},
+	"ketras the bull": {
+		"color1": "green",
+		"color2": "red",
+		"color3": "brown",
+		"kingdom": "wild plains",
+		"delve": null,
+		"type1": "divine",
+		"type2": "tauros",
+		"role": "warrior"
+	},
+	"king bloodhammer": {
+		"color1": "red",
+		"color2": "brown",
+		"color3": null,
+		"kingdom": "dhrak-zum",
+		"delve": null,
+		"type1": "dwarf",
+		"type2": "undead",
+		"role": "warmaster"
+	},
+	"king gobtruffle": {
+		"color1": "blue",
+		"color2": "green",
+		"color3": null,
+		"kingdom": "zaejin",
+		"delve": "amanithrax",
+		"type1": "elemental",
+		"type2": "goblin",
+		"role": "generator"
+	},
+	"king minos": {
+		"color1": "blue",
+		"color2": "green",
+		"color3": null,
+		"kingdom": "wild plains",
+		"delve": "the labyrinth",
+		"type1": "tauros",
+		"type2": null,
+		"role": "mage"
+	},
+	"king of thieves": {
+		"color1": "red",
+		"color2": "purple",
+		"color3": null,
+		"kingdom": "leonis empire",
+		"delve": "city of thieves",
+		"type1": "human",
+		"type2": "rogue",
+		"role": "warrior"
+	},
+	"lady morana": {
+		"color1": "blue",
+		"color2": "red",
+		"color3": null,
+		"kingdom": "sword's edge",
+		"delve": "crypt keepers",
+		"type1": "knight",
+		"type2": "undead",
+		"role": "defender"
+	},
+	"leanansidhe": {
+		"color1": "yellow",
+		"color2": "purple",
+		"color3": null,
+		"kingdom": "ghulvania",
+		"delve": "dark court",
+		"type1": "fey",
+		"type2": "mystic",
+		"role": "mage"
+	},
+	"leprechaun": {
+		"color1": "green",
+		"color2": "purple",
+		"color3": null,
+		"kingdom": "bright forest",
+		"delve": null,
+		"type1": "fey",
+		"type2": null,
+		"role": "generator"
+	},
+	"luna": {
+		"color1": "green",
+		"color2": "yellow",
+		"color3": null,
+		"kingdom": "pan's vale",
+		"delve": "the warrens",
+		"type1": "mystic",
+		"type2": "wildfolk",
+		"role": "mage"
+	},
+	"lyrasza": {
+		"color1": "blue",
+		"color2": "purple",
+		"color3": null,
+		"kingdom": "shentang",
+		"delve": "lyrasza's lair",
+		"type1": "mystic",
+		"type2": "urska",
+		"role": "mage"
+	},
+	"magma dragon": {
+		"color1": "red",
+		"color2": "brown",
+		"color3": null,
+		"kingdom": "broken spire",
+		"delve": "fire rift",
+		"type1": "dragon",
+		"type2": "elemental",
+		"role": "mage"
+	},
+	"matron velenne": {
+		"color1": "green",
+		"color2": "purple",
+		"color3": null,
+		"kingdom": "zhul'kari",
+		"delve": "eldrazhor",
+		"type1": "elf",
+		"type2": null,
+		"role": "assassin"
+	},
+	"mercy": {
+		"color1": "blue",
+		"color2": "green",
+		"color3": null,
+		"kingdom": "whitehelm",
+		"delve": null,
+		"type1": "divine",
+		"type2": null,
+		"role": "generator"
+	},
+	"moon rabbit": {
+		"color1": "green",
+		"color2": "purple",
+		"color3": null,
+		"kingdom": "shentang",
+		"delve": null,
+		"type1": "beast",
+		"type2": "mystic",
+		"role": "generator"
+	},
+	"moonsinger": {
+		"color1": "blue",
+		"color2": "yellow",
+		"color3": null,
+		"kingdom": "maugrim woods",
+		"delve": null,
+		"type1": "wargare",
+		"type2": null,
+		"role": "generator"
+	},
+	"nocturnia": {
+		"color1": "purple",
+		"color2": "brown",
+		"color3": null,
+		"kingdom": "blighted lands",
+		"delve": "fell roost",
+		"type1": "daemon",
+		"type2": "dragon",
+		"role": "striker"
+	},
+	"nyar'mel": {
+		"color1": "red",
+		"color2": "purple",
+		"color3": null,
+		"kingdom": "karakoth",
+		"delve": "duergaroth",
+		"type1": "daemon",
+		"type2": null,
+		"role": "striker"
+	},
+	"qilin": {
+		"color1": "red",
+		"color2": "yellow",
+		"color3": null,
+		"kingdom": "shentang",
+		"delve": null,
+		"type1": "beast",
+		"type2": "divine",
+		"role": "warmaster"
+	},
+	"queen beetrix": {
+		"color1": "blue",
+		"color2": "green",
+		"color3": null,
+		"kingdom": "drifting sands",
+		"delve": "the deep hive",
+		"type1": "mystic",
+		"type2": "wildfolk",
+		"role": "generator"
+	},
+	"queen titania": {
+		"color1": "red",
+		"color2": "purple",
+		"color3": null,
+		"kingdom": "bright forest",
+		"delve": null,
+		"type1": "fey",
+		"type2": "mystic",
+		"role": "mage"
+	},
+	"queen xochi": {
+		"color1": "yellow",
+		"color2": "brown",
+		"color3": null,
+		"kingdom": "suncrest",
+		"delve": "stonesong eyrie",
+		"type1": "mystic",
+		"type2": "stryx",
+		"role": "mage"
+	},
+	"rowanne": {
+		"color1": "blue",
+		"color2": "green",
+		"color3": null,
+		"kingdom": "forest of thorns",
+		"delve": null,
+		"type1": "elemental",
+		"type2": "fey",
+		"role": "mage"
+	},
+	"shahbanu vespera": {
+		"color1": "blue",
+		"color2": "yellow",
+		"color3": "purple",
+		"kingdom": "drifting sands",
+		"delve": null,
+		"type1": "elemental",
+		"type2": "mystic",
+		"role": "support"
+	},
+	"shoggorath": {
+		"color1": "blue",
+		"color2": "purple",
+		"color3": null,
+		"kingdom": "grosh-nak",
+		"delve": "dripping caverns",
+		"type1": "elemental",
+		"type2": "monster",
+		"role": "striker"
+	},
+	"silent sentinel": {
+		"color1": "blue",
+		"color2": "yellow",
+		"color3": null,
+		"kingdom": "whitehelm",
+		"delve": "hall of guardians",
+		"type1": "construct",
+		"type2": "mystic",
+		"role": "defender"
+	},
+	"sledgepaw": {
+		"color1": "yellow",
+		"color2": "brown",
+		"color3": null,
+		"kingdom": "mist of scales",
+		"delve": "dark pits",
+		"type1": "giant",
+		"type2": "wildfolk",
+		"role": "warrior"
+	},
+	"tai-pan": {
+		"color1": "blue",
+		"color2": "green",
+		"color3": null,
+		"kingdom": "mist of scales",
+		"delve": null,
+		"type1": "naga",
+		"type2": null,
+		"role": "generator"
+	},
+	"tartarus": {
+		"color1": "yellow",
+		"color2": "purple",
+		"color3": null,
+		"kingdom": "sin of maraj",
+		"delve": "depths of sin",
+		"type1": "daemon",
+		"type2": null,
+		"role": "warrior"
+	},
+	"tesla": {
+		"color1": "blue",
+		"color2": "red",
+		"color3": null,
+		"kingdom": "adana",
+		"delve": null,
+		"type1": "human",
+		"type2": null,
+		"role": "mage"
+	},
+	"the deep king": {
+		"color1": "blue",
+		"color2": "brown",
+		"color3": null,
+		"kingdom": "merlantis",
+		"delve": "sea of sorrow",
+		"type1": "merfolk",
+		"type2": null,
+		"role": "warrior"
+	},
+	"the frotfire king": {
+		"color1": "blue",
+		"color2": "red",
+		"color3": null,
+		"kingdom": "stormheim",
+		"delve": "frostfire keep",
+		"type1": "elemental",
+		"type2": "elf",
+		"role": "mage"
+	},
+	"the great wyrm": {
+		"color1": "red",
+		"color2": "yellow",
+		"color3": null,
+		"kingdom": "dragon's claw",
+		"delve": "wyrmrun",
+		"type1": "dragon",
+		"type2": null,
+		"role": "mage"
+	},
+	"the maraji queen": {
+		"color1": "blue",
+		"color2": "red",
+		"color3": null,
+		"kingdom": "bright forest",
+		"delve": "sunken fleet",
+		"type1": "construct",
+		"type2": "elemental",
+		"role": "warmaster"
+	},
+	"the mirror queen": {
+		"color1": "yellow",
+		"color2": "purple",
+		"color3": null,
+		"kingdom": "glacial peaks",
+		"delve": "mirrored halls",
+		"type1": "fey",
+		"type2": null,
+		"role": "assassin"
+	},
+	"the scourge of honor": {
+		"color1": "green",
+		"color2": "red",
+		"color3": "brown",
+		"kingdom": "sin of maraj",
+		"delve": null,
+		"type1": "daemon",
+		"type2": "wildfolk",
+		"role": "mage"
+	},
+	"the wendigo": {
+		"color1": "green",
+		"color2": "red",
+		"color3": null,
+		"kingdom": "divinion fields",
+		"delve": "wild court",
+		"type1": "fey",
+		"type2": "monster",
+		"role": "mage"
+	},
+	"the wild queen": {
+		"color1": "green",
+		"color2": "brown",
+		"color3": "purple",
+		"kingdom": "pan's vale",
+		"delve": null,
+		"type1": "elemental",
+		"type2": "wildfolk",
+		"role": "warmaster"
+	},
+	"tink steamwhistle": {
+		"color1": "yellow",
+		"color2": "brown",
+		"color3": null,
+		"kingdom": "adana",
+		"delve": "tinker town",
+		"type1": "dwarf",
+		"type2": "mech",
+		"role": "warmaster"
+	},
+	"valkyrie": {
+		"color1": "red",
+		"color2": "yellow",
+		"color3": null,
+		"kingdom": "stormheim",
+		"delve": null,
+		"type1": "divine",
+		"type2": null,
+		"role": "generator"
+	},
+	"vanya soulmourn": {
+		"color1": "yellow",
+		"color2": "purple",
+		"color3": null,
+		"kingdom": "silverglade",
+		"delve": "silver necropolis",
+		"type1": "mystic",
+		"type2": "undead",
+		"role": "mage"
+	},
+	"wrath": {
+		"color1": "yellow",
+		"color2": "brown",
+		"color3": null,
+		"kingdom": "sin of maraj",
+		"delve": null,
+		"type1": "daemon",
+		"type2": null,
+		"role": "warmaster"
+	},
+	"xerodar": {
+		"color1": "green",
+		"color2": "purple",
+		"color3": null,
+		"kingdom": "darkstone",
+		"delve": "all-seeing eye",
+		"type1": "monster",
+		"type2": "undead",
+		"role": "warrior"
+	},
+	"yao guai": {
+		"color1": "green",
+		"color2": "red",
+		"color3": null,
+		"kingdom": "shentang",
+		"delve": null,
+		"type1": "daemon",
+		"type2": "elf",
+		"role": "warrior"
+	}
+}

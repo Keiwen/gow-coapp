@@ -1,5 +1,13 @@
-const { defineConfig } = require('@vue/cli-service');
+module.exports = {
+  outputDir: 'docs',
+  transpileDependencies: [
+    /\bvue-awesome\b/
+  ],
 
-module.exports = defineConfig({
-  transpileDependencies: true,
-});
+  pwa: {
+    name: 'GoW Companion App',
+    start_url: '/gow-coapp/',
+    display: 'standalone',
+    orientation: 'landscape'
+  }
+}

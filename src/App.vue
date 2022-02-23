@@ -1,32 +1,30 @@
 <template>
   <div id="app">
-    <nav>
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </nav>
-    <router-view/>
+    <GowMenu></GowMenu>
+    <div class="container-fluid">
+      <router-view />
+    </div>
+
+    <cookie-law theme="dark-lime"
+                v-for="(otm, key) in oneTimeMessages"
+                :key="key"
+                :storageName="'gowotm:'+key"
+                :message="otm">
+    </cookie-law>
   </div>
 </template>
 
-<style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
+<script>
+import CookieLaw from 'vue-cookie-law'
+import { mapGetters } from 'vuex'
+import GowMenu from '@/components/Menu'
 
-nav {
-  padding: 30px;
-
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-
-    &.router-link-exact-active {
-      color: #42b983;
-    }
+export default {
+  components: {
+    CookieLaw, GowMenu
+  },
+  computed: {
+    ...mapGetters(['oneTimeMessages'])
   }
 }
-</style>
+</script>

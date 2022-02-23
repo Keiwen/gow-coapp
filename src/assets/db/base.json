@@ -1,0 +1,155 @@
+{
+	"colors": ["blue", "green", "red", "yellow", "purple", "brown"],
+	"arcanes": {
+		"beast": {
+			"color1": "green",
+			"color2": "red",
+			"inventoryOrder": 8
+		},
+		"blade": {
+			"color1": "blue",
+			"color2": "yellow",
+			"inventoryOrder": 4
+		},
+		"blood": {
+			"color1": "blue",
+			"color2": "red",
+			"inventoryOrder": 3
+		},
+		"dark": {
+			"color1": "red",
+			"color2": "purple",
+			"inventoryOrder": 14
+		},
+		"death": {
+			"color1": "purple",
+			"color2": "purple",
+			"inventoryOrder": 19
+		},
+		"deep": {
+			"color1": "brown",
+			"color2": "brown",
+			"inventoryOrder": 21
+		},
+		"forest": {
+			"color1": "green",
+			"color2": "brown",
+			"inventoryOrder": 11
+		},
+		"lava": {
+			"color1": "red",
+			"color2": "brown",
+			"inventoryOrder": 15
+		},
+		"light": {
+			"color1": "green",
+			"color2": "yellow",
+			"inventoryOrder": 9
+		},
+		"mountain": {
+			"color1": "yellow",
+			"color2": "brown",
+			"inventoryOrder": 18
+		},
+		"plains": {
+			"color1": "yellow",
+			"color2": "purple",
+			"inventoryOrder": 17
+		},
+		"rage": {
+			"color1": "red",
+			"color2": "red",
+			"inventoryOrder": 12
+		},
+		"shield": {
+			"color1": "blue",
+			"color2": "brown",
+			"inventoryOrder": 6
+		},
+		"skull": {
+			"color1": "purple",
+			"color2": "brown",
+			"inventoryOrder": 20
+		},
+		"spirit": {
+			"color1": "blue",
+			"color2": "purple",
+			"inventoryOrder": 5
+		},
+		"stealth": {
+			"color1": "green",
+			"color2": "green",
+			"inventoryOrder": 7
+		},
+		"stoic": {
+			"color1": "blue",
+			"color2": "blue",
+			"inventoryOrder": 1
+		},
+		"storm": {
+			"color1": "red",
+			"color2": "yellow",
+			"inventoryOrder": 13
+		},
+		"summer": {
+			"color1": "yellow",
+			"color2": "yellow",
+			"inventoryOrder": 16
+		},
+		"swamp": {
+			"color1": "blue",
+			"color2": "green",
+			"inventoryOrder": 2
+		},
+		"venom": {
+			"color1": "green",
+			"color2": "purple",
+			"inventoryOrder": 10
+		}
+	},
+	"troop_types": {
+		"beast": {},
+		"boss": {},
+		"centaur": {},
+		"construct": {},
+		"daemon": {},
+		"divine": {},
+		"doom": {},
+		"dragon": {},
+		"dwarf": {},
+		"elemental": {},
+		"elf": {},
+		"fey": {},
+		"giant": {},
+		"gnome": {},
+		"goblin": {},
+		"human": {},
+		"knight": {},
+		"mech": {},
+		"merfolk": {},
+		"monster": {},
+		"mystic": {},
+		"naga": {},
+		"orc": {},
+		"raksha": {},
+		"rogue": {},
+		"stryx": {},
+		"tauros": {},
+		"tower": {},
+		"undead": {},
+		"urska": {},
+		"wargare": {},
+		"wildfolk": {}
+	},
+	"troop_roles": {
+		"assassin": {},
+		"defender": {},
+		"generator": {},
+		"mage": {},
+		"striker": {},
+		"support": {},
+		"warlock": {},
+		"warmaster": {},
+		"warrior": {}
+	}
+}

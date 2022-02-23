@@ -1,0 +1,139 @@
+/* Main Style */
+body {
+    background-color: var(--main-bg);
+    text-align: center;
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    #app {
+        font-size: var(--font-size-base);
+        color: var(--main-color);
+        margin: 20px 10px 10px 10px;
+
+        hr {
+            border-top: 1px dotted var(--main-color) !important;
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+
+        h1, h2, h3 {
+            font-size: 1.5em;
+            margin: 0;
+        }
+
+        h1 {
+            text-transform: uppercase;
+        }
+
+        h3 {
+            font-size: 1.3em;
+        }
+
+        form {
+            text-align: justify;
+
+            label {
+                font-size: 1.1em;
+
+                &:after {
+                    content: ":";
+                }
+
+                &.form-label {
+                    margin-bottom: 0.2rem;
+                }
+            }
+        }
+
+        button {
+            margin-right: 10px;
+            margin-left: 10px;
+            border-color: var(--main-color) !important;
+        }
+
+        .fa-icon {
+            width: auto;
+            height: 1em; /* or any other relative font sizes */
+            /* You would have to include the following two lines to make this work in Safari */
+            max-width: 100%;
+            max-height: 100%;
+
+            path {
+                fill: var(--main-color);
+            }
+        }
+
+        .nav-link {
+            border-top: 1px solid transparent;
+            border-bottom: 1px solid transparent;
+            width: 70px;
+            padding-right: 0;
+            padding-left: 0;
+
+            &:hover {
+                border-top: 1px solid var(--primary);
+                border-bottom: 1px solid var(--primary);
+            }
+
+            &.router-link-active {
+                border-top: 1px solid var(--main-color);
+                border-bottom: 1px solid var(--main-color);
+                color: var(--main-color);
+            }
+        }
+        // VUE-COOKIE-LAW
+        .Cookie--dark-lime {
+            color: var(--main-color);
+            background: var(--dark);
+            padding: 0.5em;
+
+            .Cookie__button {
+                background: var(--success);
+                background-color: var(--success);
+                border: 1px solid var(--main-color);
+                border-radius: 0.25rem;
+
+                &:hover {
+                    background: darken($success, 10%);
+                }
+            }
+        }
+
+        .Cookie > * {
+            margin: 0.5em 0;
+        }
+        // TINY-TABS
+        .tinytabs {
+            .tabs {
+                margin-left: 5px;
+                display: flex;
+                flex-flow: row wrap;
+
+                .tab {
+                    margin: 0 5px 0 0;
+                    background: var(--main-bg);
+                    display: block;
+                    padding: 5px 10px;
+                    text-decoration: none;
+                    color: var(--main-color);
+                    font-weight: bold;
+                    border-radius: 5px 5px 0 0;
+                    border: 1px solid var(--main-color);
+
+                    &.sel {
+                        background: var(--main-color);
+                        color: var(--main-bg);
+                        text-shadow: none;
+                    }
+                }
+            }
+
+            .section {
+                padding: 5px 10px;
+                border: 1px solid var(--main-color);
+                border-width: 1px 0 0 0;
+            }
+        }
+    }
+}

@@ -1,0 +1,902 @@
+{
+  "trees": {
+    "arcane": {
+      "1": {
+        "name": "Magical Shield",
+        "effect": "All Purple allies gain 2 Armor."
+      },
+      "5": {
+        "name": "Mage Lord",
+        "effect": "Gain 2 Magic if in last position."
+      },
+      "10": {
+        "name": "Anti-Magic Sphere",
+        "effect": "Reduce damage from Spells by 20%."
+      },
+      "20": {
+        "name": "Mana Source",
+        "effect": "Start battles with 50% Mana."
+      },
+      "40": {
+        "name": "Antiquity",
+        "effect": "Gain 4 Magic when using Relics."
+      },
+      "70": {
+        "name": "Arcane Surge",
+        "effect": "Gain bonus Purple Mana from Purple Gem matches."
+      },
+      "100": {
+        "name": "Mystic Channel",
+        "effect": "All Mystics gain 2 Magic and Life when an enemy dies."
+      }
+    },
+    "chaos": {
+      "1": {
+        "name": "Daemonic Rage",
+        "effect": "All Daemons gain 1 Attack."
+      },
+      "5": {
+        "name": "Dark Hunger",
+        "effect": "Steal 1 Life from the first enemy when matching Purple Gems."
+      },
+      "10": {
+        "name": "Plaguebearer",
+        "effect": "Disease a random enemy on 4 or 5 Gem matches."
+      },
+      "20": {
+        "name": "Spawn of Hell",
+        "effect": "50% chance to summon a Hellspawn when an enemy dies."
+      },
+      "40": {
+        "name": "Sudden Doom",
+        "effect": "Create a Doomstorm at the start of battle."
+      },
+      "70": {
+        "name": "Delirium",
+        "effect": "Gain 2 Magic and Attack when I take damage to Life."
+      },
+      "100": {
+        "name": "Chaos Wave",
+        "effect": "All enemies lose 1 point on a random skill when I match Skulls."
+      }
+    },
+    "cunning": {
+      "1": {
+        "name": "Hunt",
+        "effect": "Hunter's Mark a random enemy on 4 or 5 of a kind."
+      },
+      "5": {
+        "name": "Knife Throwing",
+        "effect": "Gain 2 Magic if using a Dagger."
+      },
+      "10": {
+        "name": "Light Fingers",
+        "effect": "Gain 5 Gold every turn."
+      },
+      "20": {
+        "name": "Backup",
+        "effect": "35% chance to summon a Bandit when an ally dies."
+      },
+      "40": {
+        "name": "Goblin Friend",
+        "effect": "All Goblins gain 2 Attack."
+      },
+      "70": {
+        "name": "Dodge",
+        "effect": "30% chance to dodge Skull damage."
+      },
+      "100": {
+        "name": "Thieves' Guild",
+        "effect": "All Rogues gain 1 Magic on 4 or 5 of a kind."
+      }
+    },
+    "death": {
+      "1": {
+        "name": "Reaper",
+        "effect": "Gain 2 Magic if using a Scythe."
+      },
+      "5": {
+        "name": "Chill of Death",
+        "effect": "When an enemy dies, Freeze another random enemy."
+      },
+      "10": {
+        "name": "Soul Caller",
+        "effect": "Gain 1 Soul every turn."
+      },
+      "20": {
+        "name": "Icy Veil",
+        "effect": "Create an icestorm at the start of a battle."
+      },
+      "40": {
+        "name": "Life Siphon",
+        "effect": "Steal 2 Life from the first enemy on 4 or 5 Gem matches."
+      },
+      "70": {
+        "name": "Swift Curse",
+        "effect": "Death Mark a random enemy at the start of battle."
+      },
+      "100": {
+        "name": "Unholy Blessing",
+        "effect": "All Undead gain 2 Armor and Magic when an ally dies."
+      }
+    },
+    "fire": {
+      "1": {
+        "name": "Feline Fury",
+        "effect": "All Raksha gain 1 Attack and Life."
+      },
+      "5": {
+        "name": "Fireproof",
+        "effect": "Immunity to Burning and Faerie Fire."
+      },
+      "10": {
+        "name": "Up in Flames",
+        "effect": "Burn a random enemy when an ally dies."
+      },
+      "20": {
+        "name": "Firestarter",
+        "effect": "Create a firestorm at the start of a battle."
+      },
+      "40": {
+        "name": "Gift of Fire",
+        "effect": "All Red Allies gain 1 Magic."
+      },
+      "70": {
+        "name": "Firebringer",
+        "effect": "Gain bonus Red Mana from Red Gem matches."
+      },
+      "100": {
+        "name": "Fireblade",
+        "effect": "Deal triple Skull damage to burning enemies."
+      }
+    },
+    "forest": {
+      "1": {
+        "name": "Haunted Weave",
+        "effect": "Web a random enemy when I summon a troop."
+      },
+      "5": {
+        "name": "Perfect Aim",
+        "effect": "Gain 2 Magic if using a Bow."
+      },
+      "10": {
+        "name": "Root Trap",
+        "effect": "Entangle the first enemy at the start of battle."
+      },
+      "20": {
+        "name": "Nature's Aura",
+        "effect": "Create a leafstorm at the start of a battle."
+      },
+      "40": {
+        "name": "Wall of Vines",
+        "effect": "All Green allies gain 5 Armor."
+      },
+      "70": {
+        "name": "Elven Sentries",
+        "effect": "All Elves gain 1 Magic and Attack at the start of a battle."
+      },
+      "100": {
+        "name": "Harvest Moon",
+        "effect": "All Wargare Allies gain 2 Life every turn."
+      }
+    },
+    "guardian": {
+      "1": {
+        "name": "Stone Wall",
+        "effect": "All Brown allies gain 2 Armor."
+      },
+      "5": {
+        "name": "Protector",
+        "effect": "Gain 3 Magic if using a Shield."
+      },
+      "10": {
+        "name": "Vanguard",
+        "effect": "Gain Barrier at the start of battle."
+      },
+      "20": {
+        "name": "Razor Armor",
+        "effect": "Add 20% of Armor to Skull Damage."
+      },
+      "40": {
+        "name": "Savior",
+        "effect": "When an ally dies, Barrier another random ally."
+      },
+      "70": {
+        "name": "Banishment",
+        "effect": "Dispel all enemies on 4 or 5 Gem matches."
+      },
+      "100": {
+        "name": "Armor Plating",
+        "effect": "All Mech Allies gain 2 Armor per turn."
+      }
+    },
+    "knowledge": {
+      "1": {
+        "name": "Serendipity",
+        "effect": "Give a random ally a random status effect."
+      },
+      "5": {
+        "name": "Well-Read",
+        "effect": "Gain 3 Magic if using a Tome."
+      },
+      "10": {
+        "name": "Golem Protector",
+        "effect": "20% chance to summon an Ancient Golem when I take damage to Life."
+      },
+      "20": {
+        "name": "Tactician",
+        "effect": "Gain 3 Magic at the start of a battle."
+      },
+      "40": {
+        "name": "Mentor",
+        "effect": "All allies gain 1 Magic."
+      },
+      "70": {
+        "name": "Tree of Knowledge",
+        "effect": "Gain Enchant when matching Green Gems."
+      },
+      "100": {
+        "name": "Master Builder",
+        "effect": "All constructs gain 10 Life."
+      }
+    },
+    "life": {
+      "1": {
+        "name": "Resilience",
+        "effect": "Gain 8 Life."
+      },
+      "5": {
+        "name": "Purification",
+        "effect": "Cleanse myself on 4 or 5 Gem matches."
+      },
+      "10": {
+        "name": "Fast Healing",
+        "effect": "Recover 2 Life every turn."
+      },
+      "20": {
+        "name": "Fey Vengeance",
+        "effect": "Faerie Fire a random enemy when an Ally dies."
+      },
+      "40": {
+        "name": "Healing Herb",
+        "effect": "Gain 4 Life when matching Green Gems."
+      },
+      "70": {
+        "name": "Nature's Will",
+        "effect": "Gain bonus Green Mana from Green Gem matches."
+      },
+      "100": {
+        "name": "Eternal Summer",
+        "effect": "All Fey Allies gain 2 Life every turn."
+      }
+    },
+    "light": {
+      "1": {
+        "name": "Shining Staff",
+        "effect": "Gain 2 Magic if using a Staff."
+      },
+      "5": {
+        "name": "Leading Light",
+        "effect": "Gain 10 Armor if in first position."
+      },
+      "10": {
+        "name": "Brilliant Aura",
+        "effect": "All allies gain 2 Life on 4 or 5 Gem matches."
+      },
+      "20": {
+        "name": "Dawn's Aura",
+        "effect": "Create a lightstorm at the start of a battle."
+      },
+      "40": {
+        "name": "Armor of Light",
+        "effect": "All troops gain 4 Armor."
+      },
+      "70": {
+        "name": "Lightbringer",
+        "effect": "Gain bonus Yellow Mana from Yellow Gem matches."
+      },
+      "100": {
+        "name": "Divinity",
+        "effect": "All Divine Allies gain 2 Life every turn."
+      }
+    },
+    "morale": {
+      "1": {
+        "name": "Exemplar",
+        "effect": "Gain 5 Attack in PvP."
+      },
+      "5": {
+        "name": "Resplendence",
+        "effect": "Gain 2 Magic if using Jewellery."
+      },
+      "10": {
+        "name": "Royal Armory",
+        "effect": "All ally Knights gain 2 Armor."
+      },
+      "20": {
+        "name": "Quick Study",
+        "effect": "Gain 10% bonus XP from battle."
+      },
+      "40": {
+        "name": "Commander",
+        "effect": "Gain 2 to all Skills if in first position."
+      },
+      "70": {
+        "name": "Inspiration",
+        "effect": "All Allies start battle with 15% Mana."
+      },
+      "100": {
+        "name": "Urska Major",
+        "effect": "All Urska Allies gain 1 Attack every turn."
+      }
+    },
+    "shadow": {
+      "1": {
+        "name": "Gloom",
+        "effect": "All Purple allies gain 2 Life."
+      },
+      "5": {
+        "name": "Shadow Scales",
+        "effect": "All Naga Allies gain 1 Armor every turn."
+      },
+      "10": {
+        "name": "Shadows' Call",
+        "effect": "20% chance to summon a Sister of Shadows when an enemy dies."
+      },
+      "20": {
+        "name": "Dusk's Aura",
+        "effect": "Create a darkstorm at the start of a battle."
+      },
+      "40": {
+        "name": "Stealthy",
+        "effect": "Cannot be targeted by spells (unless there are no other targets)."
+      },
+      "70": {
+        "name": "Dark Venom",
+        "effect": "Poison a random Enemy when matching purple Gems."
+      },
+      "100": {
+        "name": "Rising Shadows",
+        "effect": "7% chance to assassinate the last enemy when another enemy dies."
+      }
+    },
+    "stone": {
+      "1": {
+        "name": "Impact",
+        "effect": "Inflict Stun when enemies deal Skull damage to me."
+      },
+      "5": {
+        "name": "Hammer Mastery",
+        "effect": "Gain 2 Magic if using a Hammer."
+      },
+      "10": {
+        "name": "Stone Circle",
+        "effect": "All Brown Allies gain 3 Armor."
+      },
+      "20": {
+        "name": "Dwarven Armor",
+        "effect": "Gain 4 Armor for each Dwarven ally."
+      },
+      "40": {
+        "name": "Rock Solid",
+        "effect": "Gain a Barrier when matching Brown Gems."
+      },
+      "70": {
+        "name": "Stone Mastery",
+        "effect": "Gain bonus Brown Mana from Brown Gem matches."
+      },
+      "100": {
+        "name": "Fortitude",
+        "effect": "Immune to Stun, Poison, Disease, Death Mark and Devour."
+      }
+    },
+    "storms": {
+      "1": {
+        "name": "Chaos Storm",
+        "effect": "Summon a random storm on 4 or 5 Gem matches."
+      },
+      "5": {
+        "name": "Mace of Power",
+        "effect": "Gain 2 Magic if using a Mace."
+      },
+      "10": {
+        "name": "Thunder Fist",
+        "effect": "All Yellow Allies gain 1 Magic."
+      },
+      "20": {
+        "name": "Storm Aura",
+        "effect": "Create a duststorm at the start of a battle."
+      },
+      "40": {
+        "name": "Titanic Surge",
+        "effect": "All Giant Allies gain 1 Life and Magic."
+      },
+      "70": {
+        "name": "Lightning Strike",
+        "effect": "Explode 1 Yellow Gem on 4 or 5 Gem matches."
+      },
+      "100": {
+        "name": "Lord of Storms",
+        "effect": "Elementals gain 1 Magic when an ally casts a spell."
+      }
+    },
+    "war": {
+      "1": {
+        "name": "Ferocity",
+        "effect": "Gain 4 Attack."
+      },
+      "5": {
+        "name": "Counterattack",
+        "effect": "Gain 2 attack when I take damage."
+      },
+      "10": {
+        "name": "Axes of Doom",
+        "effect": "Gain 3 Magic if using an Axe."
+      },
+      "20": {
+        "name": "Blood and Glory",
+        "effect": "Gain 1 Glory in PvP Battles."
+      },
+      "40": {
+        "name": "Vengeance",
+        "effect": "Gain 3 Attack when an enemy dies."
+      },
+      "70": {
+        "name": "Bloodthirsty",
+        "effect": "Become enraged on 4 or 5 Gem matches."
+      },
+      "100": {
+        "name": "Bull General",
+        "effect": "All Tauros allies gain 1 Attack every turn."
+      }
+    },
+    "water": {
+      "1": {
+        "name": "Snap Freeze",
+        "effect": "Freeze a random enemy at the start of battle."
+      },
+      "5": {
+        "name": "Insulated",
+        "effect": "Immunity to Frozen."
+      },
+      "10": {
+        "name": "Ocean's Trident",
+        "effect": "Gain 3 Magic if using Polearm."
+      },
+      "20": {
+        "name": "Watery Binding",
+        "effect": "All Blue Allies gain 4 Life."
+      },
+      "40": {
+        "name": "Deluge",
+        "effect": "Submerge a random ally on 4 or 5 Gem matches."
+      },
+      "70": {
+        "name": "Water Mastery",
+        "effect": "Gain bonus Blue Mana from Blue Gem matches."
+      },
+      "100": {
+        "name": "Aquatic Glory",
+        "effect": "All Merfolk allies gain 2 Magic when an enemy dies."
+      }
+    },
+    "wind": {
+      "1": {
+        "name": "Wind Shield",
+        "effect": "Gain 8 Armor."
+      },
+      "5": {
+        "name": "Precision",
+        "effect": "Gain 2 Magic is using a Missile."
+      },
+      "10": {
+        "name": "Wind Speed",
+        "effect": "All Yellow Allies start battle with 10% Mana."
+      },
+      "20": {
+        "name": "Celestial Currents",
+        "effect": "All Centaur allies gain 1 Magic."
+      },
+      "40": {
+        "name": "Gale Force",
+        "effect": "All Yellow allies gain 2 Attack."
+      },
+      "70": {
+        "name": "Child of Sky",
+        "effect": "25% chance to summon a Heronath when an ally casts a spell."
+      },
+      "100": {
+        "name": "Stryx Commander",
+        "effect": "All Stryx allies gain 1 Attack every turn."
+      }
+    }
+  },
+
+  "classes": {
+    "archer": {
+      "tree1": "forest",
+      "tree2": "wind",
+      "tree3": "cunning",
+      "trait1": "nature heart",
+      "trait2": "fast",
+      "trait3": "bullseye",
+      "troop": "elf",
+      "weapon": "dragon oak",
+      "kingdom": "forest of thorns"
+    },
+    "archmagus": {
+      "tree1": "arcane",
+      "tree2": "storms",
+      "tree3": "chaos",
+      "trait1": "mystic bond",
+      "trait2": "arcane",
+      "trait3": "mana flare",
+      "troop": "mystic",
+      "weapon": "reflection of good",
+      "kingdom": "silverglade"
+    },
+    "assassin": {
+      "tree1": "death",
+      "tree2": "shadow",
+      "tree3": "cunning",
+      "trait1": "sturdy",
+      "trait2": "venomous",
+      "trait3": "assassinate",
+      "troop": "naga",
+      "weapon": "serpentine dagger",
+      "kingdom": "mist of scales"
+    },
+    "barbarian": {
+      "tree1": "war",
+      "tree2": "forest",
+      "tree3": "storms",
+      "trait1": "orc fury",
+      "trait2": "agile",
+      "trait3": "barbaric fury",
+      "troop": "orc",
+      "weapon": "orc king's club",
+      "kingdom": "grosh-nak"
+    },
+    "bard": {
+      "tree1": "morale",
+      "tree2": "arcane",
+      "tree3": "knowledge",
+      "trait1": "wildfolk bond",
+      "trait2": "alert",
+      "trait3": "bardic inspiration",
+      "troop": "wildfolk",
+      "weapon": "orpheus' lute",
+      "kingdom": "pan's vale"
+    },
+    "corsair": {
+      "tree1": "cunning",
+      "tree2": "water",
+      "tree3": "wind",
+      "trait1": "water heart",
+      "trait2": "greedy",
+      "trait3": "high seas",
+      "troop": "rogue",
+      "weapon": "plunder and peril",
+      "kingdom": "blackhawk"
+    },
+    "deathknight": {
+      "tree1": "death",
+      "tree2": "guardian",
+      "tree3": "storms",
+      "trait1": "undead bond",
+      "trait2": "warded",
+      "trait3": "death curse",
+      "troop": "undead",
+      "weapon": "crypt keeper",
+      "kingdom": "ghulvania"
+    },
+    "dervish": {
+      "tree1": "wind",
+      "tree2": "cunning",
+      "tree3": "storms",
+      "trait1": "monster bond",
+      "trait2": "agile",
+      "trait3": "monstrous kin",
+      "troop": "monster",
+      "weapon": "dancing daggers",
+      "kingdom": "drifting sands"
+    },
+    "diabolist": {
+      "tree1": "death",
+      "tree2": "chaos",
+      "tree3": "fire",
+      "trait1": "accursed",
+      "trait2": "jinx",
+      "trait3": "hellsteed",
+      "troop": "daemon",
+      "weapon": "fiend fire",
+      "kingdom": "blighted lands"
+    },
+    "doomsayer": {
+      "tree1": "chaos",
+      "tree2": "life",
+      "tree3": "death",
+      "trait1": "accursed",
+      "trait2": "omen of dark",
+      "trait3": "doom sight",
+      "troop": "daemon",
+      "weapon": "sins' harvest",
+      "kingdom": "sin of maraj"
+    },
+    "dragonguard": {
+      "tree1": "fire",
+      "tree2": "guardian",
+      "tree3": "morale",
+      "trait1": "dragon shield",
+      "trait2": "holy armor",
+      "trait3": "dragon's grace",
+      "troop": "dragon",
+      "weapon": "dragon's eye",
+      "kingdom": "dragon's claw"
+    },
+    "elementalist": {
+      "tree1": "stone",
+      "tree2": "water",
+      "tree3": "storms",
+      "trait1": "elemental bond",
+      "trait2": "elemental shield",
+      "trait3": "elemental force",
+      "troop": "elemental",
+      "weapon": "elemental reach",
+      "kingdom": "nexus"
+    },
+    "frostmage": {
+      "tree1": "water",
+      "tree2": "arcane",
+      "tree3": "storms",
+      "trait1": "water heart",
+      "trait2": "arcane",
+      "trait3": "frostbite",
+      "troop": "fey",
+      "weapon": "orb of winter",
+      "kingdom": "glacial peaks"
+    },
+    "hierophant": {
+      "tree1": "fire",
+      "tree2": "light",
+      "tree3": "life",
+      "trait1": "revered",
+      "trait2": "spell armor",
+      "trait3": "ancient mysteries",
+      "troop": "fey",
+      "weapon": "summer's wonder",
+      "kingdom": "bright forest"
+    },
+    "knight": {
+      "tree1": "guardian",
+      "tree2": "light",
+      "tree3": "morale",
+      "trait1": "knight bond",
+      "trait2": "avenger",
+      "trait3": "full plate",
+      "troop": "knight",
+      "weapon": "serve and protect",
+      "kingdom": "sword's edge"
+    },
+    "mechanist": {
+      "tree1": "guardian",
+      "tree2": "wind",
+      "tree3": "knowledge",
+      "trait1": "mech bond",
+      "trait2": "insulated",
+      "trait3": "clockwork",
+      "troop": "mech",
+      "weapon": "dragonator 8000",
+      "kingdom": "adana"
+    },
+    "monk": {
+      "tree1": "life",
+      "tree2": "stone",
+      "tree3": "water",
+      "trait1": "sky ancestry",
+      "trait2": "agile",
+      "trait3": "good karma",
+      "troop": "elf",
+      "weapon": "spiked manriki",
+      "kingdom": "shentang"
+    },
+    "necromancer": {
+      "tree1": "death",
+      "tree2": "shadow",
+      "tree3": "arcane",
+      "trait1": "undead bond",
+      "trait2": "magic spirit",
+      "trait3": "ensoul",
+      "troop": "undead",
+      "weapon": "creeping death",
+      "kingdom": "khetar"
+    },
+    "oracle": {
+      "tree1": "light",
+      "tree2": "knowledge",
+      "tree3": "wind",
+      "trait1": "centaur bond",
+      "trait2": "invigorated",
+      "trait3": "portent",
+      "troop": "centaur",
+      "weapon": "staff of visions",
+      "kingdom": "divinion fields"
+    },
+    "orbweaver": {
+      "tree1": "forest",
+      "tree2": "shadow",
+      "tree3": "morale",
+      "trait1": "nature heart",
+      "trait2": "mana shield",
+      "trait3": "familiar",
+      "troop": "elf",
+      "weapon": "spider totem",
+      "kingdom": "zhul'kari"
+    },
+    "plaguelord": {
+      "tree1": "arcane",
+      "tree2": "chaos",
+      "tree3": "stone",
+      "trait1": "accursed",
+      "trait2": "immune",
+      "trait3": "contagion",
+      "troop": "human",
+      "weapon": "essence of evil",
+      "kingdom": "darkstone"
+    },
+    "priest": {
+      "tree1": "light",
+      "tree2": "life",
+      "tree3": "knowledge",
+      "trait1": "divine bond",
+      "trait2": "air link",
+      "trait3": "divine aura",
+      "troop": "divine",
+      "weapon": "staff of st. astra",
+      "kingdom": "whitehelm"
+    },
+    "runepriest": {
+      "tree1": "stone",
+      "tree2": "knowledge",
+      "tree3": "guardian",
+      "trait1": "dwarf bond",
+      "trait2": "rocky death",
+      "trait3": "dwarven mettle",
+      "troop": "dwarf",
+      "weapon": "runeforger",
+      "kingdom": "khaziel"
+    },
+    "sentinel": {
+      "tree1": "morale",
+      "tree2": "stone",
+      "tree3": "guardian",
+      "trait1": "leader",
+      "trait2": "holy armor",
+      "trait3": "get behind me!",
+      "troop": "urska",
+      "weapon": "shield of urskaya",
+      "kingdom": "urskaya"
+    },
+    "shaman": {
+      "tree1": "forest",
+      "tree2": "war",
+      "tree3": "light",
+      "trait1": "tauros bond",
+      "trait2": "nature spirit",
+      "trait3": "bullish vigor",
+      "troop": "tauros",
+      "weapon": "fire ruby staff",
+      "kingdom": "wild plains"
+    },
+    "slayer": {
+      "tree1": "war",
+      "tree2": "death",
+      "tree3": "fire",
+      "trait1": "grudge",
+      "trait2": "bloodlust",
+      "trait3": "brutal strike",
+      "troop": "dwarf",
+      "weapon": "deathdealer",
+      "kingdom": "dhrak-zum"
+    },
+    "sorcerer": {
+      "tree1": "knowledge",
+      "tree2": "shadow",
+      "tree3": "chaos",
+      "trait1": "magic link",
+      "trait2": "inscribed",
+      "trait3": "dark channel",
+      "troop": "daemon",
+      "weapon": "daemonomicon",
+      "kingdom": "karakoth"
+    },
+    "stormcaller": {
+      "tree1": "storms",
+      "tree2": "life",
+      "tree3": "wind",
+      "trait1": "stryx bond",
+      "trait2": "shock",
+      "trait3": "storm soul",
+      "troop": "stryx",
+      "weapon": "thunderbird",
+      "kingdom": "suncrest"
+    },
+    "sunspear": {
+      "tree1": "forest",
+      "tree2": "water",
+      "tree3": "fire",
+      "trait1": "fire brand",
+      "trait2": "fireproof",
+      "trait3": "heatwave",
+      "troop": "raksha",
+      "weapon": "flame soul",
+      "kingdom": "pridelands"
+    },
+    "thief": {
+      "tree1": "cunning",
+      "tree2": "shadow",
+      "tree3": "wind",
+      "trait1": "greedy",
+      "trait2": "fast",
+      "trait3": "sneak attack",
+      "troop": "goblin",
+      "weapon": "skeleton key",
+      "kingdom": "zaejin"
+    },
+    "tidecaller": {
+      "tree1": "water",
+      "tree2": "life",
+      "tree3": "arcane",
+      "trait1": "merfolk bond",
+      "trait2": "aquatic",
+      "trait3": "crashing wave",
+      "troop": "merfolk",
+      "weapon": "three sisters",
+      "kingdom": "merlantis"
+    },
+    "titan": {
+      "tree1": "war",
+      "tree2": "stone",
+      "tree3": "storms",
+      "trait1": "giant bond",
+      "trait2": "big",
+      "trait3": "giant lord",
+      "troop": "giant",
+      "weapon": "thorodin",
+      "kingdom": "stormheim"
+    },
+    "warden": {
+      "tree1": "forest",
+      "tree2": "guardian",
+      "tree3": "cunning",
+      "trait1": "avenger",
+      "trait2": "beast bond",
+      "trait3": "ward",
+      "troop": "beast",
+      "weapon": "warden's gauntlets",
+      "kingdom": "maugrim woods"
+    },
+    "warlord": {
+      "tree1": "war",
+      "tree2": "fire",
+      "tree3": "morale",
+      "trait1": "fire heart",
+      "trait2": "frenzy",
+      "trait3": "hack n slash",
+      "troop": "giant",
+      "weapon": "warlord's battlecry",
+      "kingdom": "broken spire"
+    },
+    "warpriest": {
+      "tree1": "war",
+      "tree2": "light",
+      "tree3": "morale",
+      "trait1": "revered",
+      "trait2": "holy armor",
+      "trait3": "wrath of anu",
+      "troop": "human",
+      "weapon": "symbol of anu",
+      "kingdom": "leonis empire"
+    }
+  }
+}

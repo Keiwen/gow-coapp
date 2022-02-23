@@ -1,0 +1,216 @@
+{
+  "kingdoms": {
+    "adana": { "arcane": "storm", "mastery": "yellow"},
+    "blackhawk": { "arcane": "shield", "mastery": "brown"},
+    "blighted lands": { "arcane": "dark", "mastery": "purple"},
+    "bright forest": { "arcane": "venom", "mastery": "green"},
+    "broken spire": { "arcane": "shield", "mastery": "brown"},
+    "darkstone": { "arcane": "skull", "mastery": "purple"},
+    "dhrak-zum": { "arcane": "skull", "mastery": "brown"},
+    "divinion fields": { "arcane": "plains", "mastery": "yellow"},
+    "dragon's claw": { "arcane": "storm", "mastery": "red"},
+    "drifting sands": { "arcane": "mountain", "mastery": "brown"},
+    "forest of thorns": { "arcane": "stealth", "mastery": "green"},
+    "ghulvania": { "arcane": "dark", "mastery": "purple"},
+    "glacial peaks": { "arcane": "spirit", "mastery": "blue"},
+    "grosh-nak": { "arcane": "lava", "mastery": "red"},
+    "karakoth": { "arcane": "death", "mastery": "purple"},
+    "khaziel": { "arcane": "deep", "mastery": "brown"},
+    "khetar": { "arcane": "spirit", "mastery": "purple"},
+    "leonis empire": { "arcane": "blade", "mastery": "blue"},
+    "maugrim woods": { "arcane": "swamp", "mastery": "green"},
+    "merlantis": { "arcane": "swamp", "mastery": "blue"},
+    "mist of scales": { "arcane": "blood", "mastery": "red"},
+    "nexus": { "arcane": "shield", "mastery": "brown"},
+    "pan's vale": { "arcane": "swamp", "mastery": "yellow"},
+    "pridelands": { "arcane": "rage", "mastery": "red"},
+    "shentang": { "arcane": "storm", "mastery": "yellow"},
+    "silverglade": { "arcane": "plains", "mastery": "purple"},
+    "sin of maraj": { "arcane": "lava", "mastery": "red"},
+    "stormheim": { "arcane": "stoic", "mastery": "blue"},
+    "suncrest": { "arcane": "light", "mastery": "yellow"},
+    "sword's edge": { "arcane": "blade", "mastery": "blue"},
+    "urskaya": { "arcane": "lava", "mastery": "brown"},
+    "whitehelm": { "arcane": "summer", "mastery": "yellow"},
+    "wild plains": { "arcane": "beast", "mastery": "red"},
+    "zaejin": { "arcane": "forest", "mastery": "green"},
+    "zhul'kari": { "arcane": "venom", "mastery": "green"}
+  },
+  "delves": {
+    "all-seeing eye": {
+      "color1": "green",
+      "color2": "blue",
+      "kingdom": "darkstone"
+    },
+    "amanithrax": {
+      "color1": "green",
+      "color2": "brown",
+      "kingdom": "zaejin"
+    },
+    "city of thieves": {
+      "color1": "purple",
+      "color2": "blue",
+      "kingdom": "leonis empire"
+    },
+    "crypt keepers": {
+      "color1": "red",
+      "color2": "purple",
+      "kingdom": "sword's edge"
+    },
+    "dark court": {
+      "color1": "purple",
+      "color2": "yellow",
+      "kingdom": "ghulvania"
+    },
+    "dark pits": {
+      "color1": "brown",
+      "color2": "green",
+      "kingdom": "mist of scales"
+    },
+    "depths of sin": {
+      "color1": "purple",
+      "color2": "red",
+      "kingdom": "sin of maraj"
+    },
+    "dripping caverns": {
+      "color1": "blue",
+      "color2": "green",
+      "kingdom": "grosh-nak"
+    },
+    "duergaroth": {
+      "color1": "brown",
+      "color2": "purple",
+      "kingdom": "karakoth"
+    },
+    "eldrazhor": {
+      "color1": "green",
+      "color2": "purple",
+      "kingdom": "zhul'kari"
+    },
+    "emperinazar": {
+      "color1": "yellow",
+      "color2": "brown",
+      "kingdom": "khaziel"
+    },
+    "fang moor": {
+      "color1": "red",
+      "color2": "blue",
+      "kingdom": "khetar"
+    },
+    "fell roost": {
+      "color1": "yellow",
+      "color2": "purple",
+      "kingdom": "blighted lands"
+    },
+    "fire rift": {
+      "color1": "red",
+      "color2": "brown",
+      "kingdom": "broken spire"
+    },
+    "frostfire keep": {
+      "color1": "blue",
+      "color2": "yellow",
+      "kingdom": "stormheim"
+    },
+    "hall of guardians": {
+      "color1": "yellow",
+      "color2": "brown",
+      "kingdom": "whitehelm"
+    },
+    "hell gate": {
+      "color1": "brown",
+      "color2": "red",
+      "kingdom": "maugrim woods"
+    },
+    "illithia": {
+      "color1": "purple",
+      "color2": "blue",
+      "kingdom": "dhrak-zum"
+    },
+    "indrajit's palace": {
+      "color1": "red",
+      "color2": "purple",
+      "kingdom": "pridelands"
+    },
+    "lyrasza's lair": {
+      "color1": "yellow",
+      "color2": "purple",
+      "kingdom": "shentang"
+    },
+    "mirrored halls": {
+      "color1": "yellow",
+      "color2": "blue",
+      "kingdom": "glacial peaks"
+    },
+    "primal rift": {
+      "color1": "purple",
+      "color2": "green",
+      "kingdom": "forest of thorns"
+    },
+    "sea of sorrow": {
+      "color1": "blue",
+      "color2": "brown",
+      "kingdom": "merlantis"
+    },
+    "silver necropolis": {
+      "color1": "purple",
+      "color2": "brown",
+      "kingdom": "silverglade"
+    },
+    "stonesong eyrie": {
+      "color1": "brown",
+      "color2": "yellow",
+      "kingdom": "suncrest"
+    },
+    "sunken fleet": {
+      "color1": "blue",
+      "color2": "red",
+      "kingdom": "bright forest"
+    },
+    "the black heart": {
+      "color1": "blue",
+      "color2": "purple",
+      "kingdom": "blackhawk"
+    },
+    "the deep hive": {
+      "color1": "brown",
+      "color2": "green",
+      "kingdom": "drifting sands"
+    },
+    "the labyrinth": {
+      "color1": "green",
+      "color2": "red",
+      "kingdom": "wild plains"
+    },
+    "the warrens": {
+      "color1": "green",
+      "color2": "yellow",
+      "kingdom": "pan's vale"
+    },
+    "tinker town": {
+      "color1": "red",
+      "color2": "yellow",
+      "kingdom": "adana"
+    },
+    "umbral nexus": {
+      "color1": "purple",
+      "color2": "yellow",
+      "kingdom": "nexus"
+    },
+    "werewoods": {
+      "color1": "red",
+      "color2": "green",
+      "kingdom": "urskaya"
+    },
+    "wild court": {
+      "color1": "green",
+      "color2": "red",
+      "kingdom": "divinion fields"
+    },
+    "wyrmrun": {
+      "color1": "yellow",
+      "color2": "red",
+      "kingdom": "dragon's claw"
+    }
+  }
+}
