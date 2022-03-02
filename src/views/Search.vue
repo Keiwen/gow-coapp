@@ -1,6 +1,6 @@
 <template>
   <div>
-    <VueTinyTabs id="searchTab" :anchor="true" :closable="false" :hideTitle="true">
+    <VueTinyTabs id="searchTab" :anchor="false" :closable="false" :hideTitle="true">
       <div class="section" id="classes">
         <h3 class="title">Classes</h3>
         <ClassSearch />
