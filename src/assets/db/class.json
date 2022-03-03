@@ -514,6 +514,7 @@
 
   "classes": {
     "archer": {
+      "id": 14004,
       "tree1": "forest",
       "tree2": "wind",
       "tree3": "cunning",
@@ -525,6 +526,7 @@
       "kingdom": "forest of thorns"
     },
     "archmagus": {
+      "id": 14028,
       "tree1": "arcane",
       "tree2": "storms",
       "tree3": "chaos",
@@ -536,6 +538,7 @@
       "kingdom": "silverglade"
     },
     "assassin": {
+      "id": 14008,
       "tree1": "death",
       "tree2": "shadow",
       "tree3": "cunning",
@@ -547,6 +550,7 @@
       "kingdom": "mist of scales"
     },
     "barbarian": {
+      "id": 14032,
       "tree1": "war",
       "tree2": "forest",
       "tree3": "storms",
@@ -558,6 +562,7 @@
       "kingdom": "grosh-nak"
     },
     "bard": {
+      "id": 14013,
       "tree1": "morale",
       "tree2": "arcane",
       "tree3": "knowledge",
@@ -569,6 +574,7 @@
       "kingdom": "pan's vale"
     },
     "corsair": {
+      "id": 14026,
       "tree1": "cunning",
       "tree2": "water",
       "tree3": "wind",
@@ -580,6 +586,7 @@
       "kingdom": "blackhawk"
     },
     "deathknight": {
+      "id": 14011,
       "tree1": "death",
       "tree2": "guardian",
       "tree3": "storms",
@@ -591,6 +598,7 @@
       "kingdom": "ghulvania"
     },
     "dervish": {
+      "id": 14023,
       "tree1": "wind",
       "tree2": "cunning",
       "tree3": "storms",
@@ -602,6 +610,7 @@
       "kingdom": "drifting sands"
     },
     "diabolist": {
+      "id": 14027,
       "tree1": "death",
       "tree2": "chaos",
       "tree3": "fire",
@@ -613,6 +622,7 @@
       "kingdom": "blighted lands"
     },
     "doomsayer": {
+      "id": 14033,
       "tree1": "chaos",
       "tree2": "life",
       "tree3": "death",
@@ -624,6 +634,7 @@
       "kingdom": "sin of maraj"
     },
     "dragonguard": {
+      "id": 14014,
       "tree1": "fire",
       "tree2": "guardian",
       "tree3": "morale",
@@ -635,6 +646,7 @@
       "kingdom": "dragon's claw"
     },
     "elementalist": {
+      "id": 14034,
       "tree1": "stone",
       "tree2": "water",
       "tree3": "storms",
@@ -646,6 +658,7 @@
       "kingdom": "nexus"
     },
     "frostmage": {
+      "id": 14018,
       "tree1": "water",
       "tree2": "arcane",
       "tree3": "storms",
@@ -657,6 +670,7 @@
       "kingdom": "glacial peaks"
     },
     "hierophant": {
+      "id": 14024,
       "tree1": "fire",
       "tree2": "light",
       "tree3": "life",
@@ -668,6 +682,7 @@
       "kingdom": "bright forest"
     },
     "knight": {
+      "id": 14001,
       "tree1": "guardian",
       "tree2": "light",
       "tree3": "morale",
@@ -679,6 +694,7 @@
       "kingdom": "sword's edge"
     },
     "mechanist": {
+      "id": 14007,
       "tree1": "guardian",
       "tree2": "wind",
       "tree3": "knowledge",
@@ -690,6 +706,7 @@
       "kingdom": "adana"
     },
     "monk": {
+      "id": 14031,
       "tree1": "life",
       "tree2": "stone",
       "tree3": "water",
@@ -701,6 +718,7 @@
       "kingdom": "shentang"
     },
     "necromancer": {
+      "id": 14006,
       "tree1": "death",
       "tree2": "shadow",
       "tree3": "arcane",
@@ -712,6 +730,7 @@
       "kingdom": "khetar"
     },
     "oracle": {
+      "id": 14010,
       "tree1": "light",
       "tree2": "knowledge",
       "tree3": "wind",
@@ -723,6 +742,7 @@
       "kingdom": "divinion fields"
     },
     "orbweaver": {
+      "id": 14009,
       "tree1": "forest",
       "tree2": "shadow",
       "tree3": "morale",
@@ -734,6 +754,7 @@
       "kingdom": "zhul'kari"
     },
     "plaguelord": {
+      "id": 14021,
       "tree1": "arcane",
       "tree2": "chaos",
       "tree3": "stone",
@@ -745,6 +766,7 @@
       "kingdom": "darkstone"
     },
     "priest": {
+      "id": 14003,
       "tree1": "light",
       "tree2": "life",
       "tree3": "knowledge",
@@ -756,6 +778,7 @@
       "kingdom": "whitehelm"
     },
     "runepriest": {
+      "id": 14015,
       "tree1": "stone",
       "tree2": "knowledge",
       "tree3": "guardian",
@@ -767,6 +790,7 @@
       "kingdom": "khaziel"
     },
     "sentinel": {
+      "id": 14022,
       "tree1": "morale",
       "tree2": "stone",
       "tree3": "guardian",
@@ -778,6 +802,7 @@
       "kingdom": "urskaya"
     },
     "shaman": {
+      "id": 14020,
       "tree1": "forest",
       "tree2": "war",
       "tree3": "light",
@@ -789,6 +814,7 @@
       "kingdom": "wild plains"
     },
     "slayer": {
+      "id": 14029,
       "tree1": "war",
       "tree2": "death",
       "tree3": "fire",
@@ -800,6 +826,7 @@
       "kingdom": "dhrak-zum"
     },
     "sorcerer": {
+      "id": 14005,
       "tree1": "knowledge",
       "tree2": "shadow",
       "tree3": "chaos",
@@ -811,6 +838,7 @@
       "kingdom": "karakoth"
     },
     "stormcaller": {
+      "id": 14030,
       "tree1": "storms",
       "tree2": "life",
       "tree3": "wind",
@@ -822,6 +850,7 @@
       "kingdom": "suncrest"
     },
     "sunspear": {
+      "id": 14016,
       "tree1": "forest",
       "tree2": "water",
       "tree3": "fire",
@@ -833,6 +862,7 @@
       "kingdom": "pridelands"
     },
     "thief": {
+      "id": 14017,
       "tree1": "cunning",
       "tree2": "shadow",
       "tree3": "wind",
@@ -844,6 +874,7 @@
       "kingdom": "zaejin"
     },
     "tidecaller": {
+      "id": 14025,
       "tree1": "water",
       "tree2": "life",
       "tree3": "arcane",
@@ -855,6 +886,7 @@
       "kingdom": "merlantis"
     },
     "titan": {
+      "id": 14012,
       "tree1": "war",
       "tree2": "stone",
       "tree3": "storms",
@@ -866,6 +898,7 @@
       "kingdom": "stormheim"
     },
     "warden": {
+      "id": 14002,
       "tree1": "forest",
       "tree2": "guardian",
       "tree3": "cunning",
@@ -877,6 +910,7 @@
       "kingdom": "maugrim woods"
     },
     "warlord": {
+      "id": 14000,
       "tree1": "war",
       "tree2": "fire",
       "tree3": "morale",
@@ -888,6 +922,7 @@
       "kingdom": "broken spire"
     },
     "warpriest": {
+      "id": 14019,
       "tree1": "war",
       "tree2": "light",
       "tree3": "morale",

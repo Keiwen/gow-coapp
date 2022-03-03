@@ -1,38 +1,326 @@
 {
-  "dragon oak": { "description": "Remove all Gems of one of an Enemy's Mana Colors. Deal 21 damage to that Enemy, boosted by Gems removed." },
-  "reflection of good": { "description": "Grant all status effects to an Ally, then explode 12 Gems of their Mana Color." },
-  "serpentine dagger": { "description": "Deal 26 damage to an Enemy and Poison them. There is a 10% chance to kill them. If the Enemy is already Poisoned, there's a 20% chance to kill them." },
-  "orc king's club": { "description": "Deal 24 heavy splash damage to an Enemy, boosted by Skulls. Then Stun all affected Troops." },
-  "orpheus' lute": { "description": "Gain 34 Life. Cleanse and Enchant all other allies." },
-  "plunder and peril": { "description": "Deal 19 damage to 2 random Enemies, boosted by my Gold and the Enemy's Gold." },
-  "crypt keeper": { "description": "Death Mark an enemy. Deal 17 true damage to all enemies below them, boosted by enemy Death Mark." },
-  "dancing daggers": { "description": "Deal 21 damage to all Enemies. Knock 1-2 Enemies from first to last position." },
-  "fiend fire": { "description": "Deal 17 damage to all Enemies, boosted by Daemon Allies. Then Curse and Burn all Enemies" },
-  "sins' harvest": { "description": "Deal 11 damage to all Enemies. Convert Yellow Gems to Doomskulls." },
-  "dragon's eye": { "description": "Destroy 11 Gems. Transform the last Enemy into an empowered Baby Dragon." },
-  "elemental reach": { "description": "Deal 21 damage to an Enemy, then deal 12 more damage for each status effect: Entangled, Burning, Frozen, Stunned." },
-  "orb of winter": { "description": "Deal 21 damage to all Enemies, boosted by Frozen Enemies." },
-  "summer's wonder": { "description": "Deal 32 true scatter damage, boosted by Fey Allies and Enemies. If an Enemy dies, grant all Allies 2 random Positive Status Effects." },
-  "serve and protect": { "description": "Gain 21 Armor, and pull myself to first position. All other Allies gain Barrier." },
-  "dragonator 8000": { "description": "Scientifically Burn, Freeze, Silence and deal 19 damage to random Enemies." },
-  "spiked manriki": { "description": "Deal 21 splash damage to an Enemy and the Enemy below them. Stun and inflict Bleed on the targeted Enemies." },
-  "creeping death": { "description": "Death Mark the strongest and the weakest Enemies. Deal 21 damage to all Enemies." },
-  "staff of visions": { "description": "Give an ally 17 to a random skill, then give them Barrier and 3-15 Mana." },
-  "spider totem": { "description": "Deal 24 damage to an enemy, drain their Mana and Web them. If the enemy was already Webbed, gain an extra turn." },
-  "essence of evil": { "description": "Inflict all negative status effects on an Enemy, explode 21 Gems of their Mana Color." },
-  "staff of st. astra": { "description": "Cleanse all allies and give all Allies 22 Life." },
-  "runeforger": { "description": "Deal 20 splash damage to an enemy. Explode a random Gem for every Brown Ally and Enemy." },
-  "shield of urskaya": { "description": "Give an Ally 22 Armor, boosted by all Enemy Attack. Then Enrage and Barrier them." },
-  "fire ruby staff": { "description": "Deal 28 scatter damage, boosted by my Attack, Life and Armor. Give all Allies 2 to all Skills." },
-  "deathdealer": { "description": "Deal 26 damage to an Enemy. If the Enemy is Bleeding, deal double damage. There's a 10% chance to slay them, boosted by Doomskulls." },
-  "daemonomicon": { "description": "Summon a random Daemon." },
-  "thunderbird": { "description": "Deal 24 true damage to an Enemy. If there is a Storm, deal 15 true damage to all Enemies. Then remove the Storm." },
-  "flame soul": { "description": "Choose a Mana Gem. Deal 21 damage to each enemy of that color and Burn them. Give all allies of the matching color 4 Attack." },
-  "skeleton key": { "description": "Deal 24 damage to the first and last enemies, boosted by my Gold. If an enemy dies, gain an Extra Turn." },
-  "three sisters": { "description": "Deal 25 heavy splash damage to an Enemy, boosted by all Blue Allies and Enemies. If an Enemy dies, give 3 Magic to all Allies and Submerge them." },
-  "thorodin": { "description": "Deal 25 splash damage to an Enemy, boosted by Giant Allies and Enemies." },
-  "warden's gauntlets": { "description": "Destroy a row and a column. Deal 23 scatter damage, boosted by Green Gems destroyed." },
-  "warlord's battlecry": { "description": "Deal 22 damage to an Enemy, boosted by the Enemy's Attack." },
-  "symbol of anu": { "description": "Drain up to 12 Mana from and enemy and deal 20 damage. Create Gems of that troop's Mana Color equal to the Mana drained." }
-
+  "bronzelock pistol": {
+    "id": 1150,
+    "color1": "blue",
+    "color2": "brown",
+    "description": "Deal 27 damage to an enemy. Destroy 5 random Gems, boosted by gold collected."
+  },
+  "creeping death": {
+    "id": 1140,
+    "color1": "purple",
+    "color2": null,
+    "description": "Death Mark the strongest and the weakest Enemies. Deal 21 damage to all Enemies."
+  },
+  "crypt keeper": {
+    "id": 0,
+    "color1": "purple",
+    "color2": null,
+    "description": "Death Mark an enemy. Deal 17 true damage to all enemies below them, boosted by enemy Death Mark."
+  },
+  "daemonomicon": {
+    "id": 0,
+    "color1": "purple",
+    "color2": null,
+    "description": "Summon a random Daemon."
+  },
+  "dancing daggers": {
+    "id": 0,
+    "color1": "yellow",
+    "color2": null,
+    "description": "Deal 21 damage to all Enemies. Knock 1-2 Enemies from first to last position."
+  },
+  "deathdealer": {
+    "id": 0,
+    "color1": "red",
+    "color2": null,
+    "description": "Deal 26 damage to an Enemy. If the Enemy is Bleeding, deal double damage. There's a 10% chance to slay them, boosted by Doomskulls."
+  },
+  "dragon oak": {
+    "id": 0,
+    "color1": "green",
+    "color2": null,
+    "description": "Remove all Gems of one of an Enemy's Mana Colors. Deal 21 damage to that Enemy, boosted by Gems removed."
+  },
+  "dragon's eye": {
+    "id": 1157,
+    "color1": "brown",
+    "color2": null,
+    "description": "Destroy 11 Gems. Transform the last Enemy into an empowered Baby Dragon."
+  },
+  "dragonator 8000": {
+    "id": 0,
+    "color1": "brown",
+    "color2": null,
+    "description": "Scientifically Burn, Freeze, Silence and deal 19 damage to random Enemies."
+  },
+  "elemental reach": {
+    "id": 1427,
+    "color1": "blue",
+    "color2": null,
+    "description": "Deal 21 damage to an Enemy, then deal 12 more damage for each status effect: Entangled, Burning, Frozen, Stunned."
+  },
+  "essence of evil": {
+    "id": 0,
+    "color1": "green",
+    "color2": null,
+    "description": "Inflict all negative status effects on an Enemy, explode 21 Gems of their Mana Color."
+  },
+  "eye of orion": {
+    "id": 1388,
+    "color1": "red",
+    "color2": "brown",
+    "description": "Explode 23 Yellow Gems. Grant a random Status Effect to all Divinion Fields Allies. Then summon a Divinion Fields Troop."
+  },
+  "fiend fire": {
+    "id": 0,
+    "color1": "purple",
+    "color2": null,
+    "description": "Deal 17 damage to all Enemies, boosted by Daemon Allies. Then Curse and Burn all Enemies"
+  },
+  "fire ruby staff": {
+    "id": 0,
+    "color1": "green",
+    "color2": null,
+    "description": "Deal 28 scatter damage, boosted by my Attack, Life and Armor. Give all Allies 2 to all Skills."
+  },
+  "fist of heaven": {
+    "id": 1375,
+    "color1": "green",
+    "color2": "red",
+    "description": "Explode 23 Yellow Gems. Grant a random Status Effect to all Divine Allies. Then summon a Divine Troop."
+  },
+  "flame soul": {
+    "id": 1215,
+    "color1": "red",
+    "color2": null,
+    "description": "Choose a Mana Gem. Deal 21 damage to each enemy of that color and Burn them. Give all allies of the matching color 4 Attack."
+  },
+  "mace of claws": {
+    "id": 1281,
+    "color1": "green",
+    "color2": "brown",
+    "description": "Deal 26 damage to an Enemy boosted by Dragon Allies. Then create a mix of 6 Red and Purple Gems for each Dragon Ally."
+  },
+  "mang": {
+    "id": 1110,
+    "color1": "red",
+    "color2": "brown",
+    "description": "Eliminate all Armor from an Enemy, then deal 22 damage. Gain Attack equal to Armor eliminated."
+  },
+  "morthani's scythe": {
+    "id": 1051,
+    "color1": "purple",
+    "color2": null,
+    "description": "Deal 23 damage to all Enemies. If an Enemy dies, create 7 Skulls."
+  },
+  "mountain crusher": {
+    "id": 1056,
+    "color1": "brown",
+    "color2": null,
+    "description": "Explode 20 Brown Gems."
+  },
+  "mystic manuscript": {
+    "id": 1406,
+    "color1": "green",
+    "color2": "brown",
+    "description": "Explode 22 Purple Gems. Grant a random Status Effect to all Mystic Allies. Then summon a Mystic Troop."
+  },
+  "norbert's turnip": {
+    "id": 1285,
+    "color1": "yellow",
+    "color2": "brown",
+    "description": "Deal 33 damage to an Enemy boosted by Goblin Allies. Then create a mix of 6 Green and Red Gems for each Goblin Ally."
+  },
+  "ocea's tome": {
+    "id": 1433,
+    "color1": "blue",
+    "color2": "yellow",
+    "description": "Explode 4 Gems for each Blue Ally and each Elemental Ally."
+  },
+  "orb of winter": {
+    "id": 0,
+    "color1": "blue",
+    "color2": null,
+    "description": "Deal 21 damage to all Enemies, boosted by Frozen Enemies."
+  },
+  "orc king's club": {
+    "id": 0,
+    "color1": "red",
+    "color2": null,
+    "description": "Deal 24 heavy splash damage to an Enemy, boosted by Skulls. Then Stun all affected Troops."
+  },
+  "orpheus' lute": {
+    "id": 0,
+    "color1": "yellow",
+    "color2": null,
+    "description": "Gain 34 Life. Cleanse and Enchant all other allies."
+  },
+  "phylactery": {
+    "id": 1090,
+    "color1": "blue",
+    "color2": "purple",
+    "description": "Restore your Life to full. Gain an extra turn. Gain 29 Souls."
+  },
+  "plunder and peril": {
+    "id": 0,
+    "color1": "blue",
+    "color2": null,
+    "description": "Deal 19 damage to 2 random Enemies, boosted by my Gold and the Enemy's Gold."
+  },
+  "reflection of good": {
+    "id": 1263,
+    "color1": "purple",
+    "color2": null,
+    "description": "Grant all status effects to an Ally, then explode 12 Gems of their Mana Color."
+  },
+  "rope dart": {
+    "id": 1228,
+    "color1": "blue",
+    "color2": "yellow",
+    "description": "Eliminate all Armor from an Enemy, and deal 31 damage, then pull them to first position."
+  },
+  "runeforger": {
+    "id": 0,
+    "color1": "brown",
+    "color2": null,
+    "description": "Deal 20 splash damage to an enemy. Explode a random Gem for every Brown Ally and Enemy."
+  },
+  "scaleguard protector": {
+    "id": 1386,
+    "color1": "blue",
+    "color2": "purple",
+    "description": "Explode 22 Red Gems. Grant a random Status Effect to all Naga Allies. Then summon a Naga Troop."
+  },
+  "scarab blade": {
+    "id": 1393,
+    "color1": "blue",
+    "color2": "brown",
+    "description": "Explode 20 Purple Gems. Grant a random Status Effect to all Undead Allies. Then summon a Undead Troop."
+  },
+  "serpentine dagger": {
+    "id": 1143,
+    "color1": "red",
+    "color2": null,
+    "description": "Deal 26 damage to an Enemy and Poison them. There is a 10% chance to kill them. If the Enemy is already Poisoned, there's a 20% chance to kill them."
+  },
+  "serve and protect": {
+    "id": 0,
+    "color1": "blue",
+    "color2": null,
+    "description": "Gain 21 Armor, and pull myself to first position. All other Allies gain Barrier."
+  },
+  "shield of urskaya": {
+    "id": 1221,
+    "color1": "brown",
+    "color2": null,
+    "description": "Give an Ally 22 Armor, boosted by all Enemy Attack. Then Enrage and Barrier them."
+  },
+  "sins' harvest": {
+    "id": 0,
+    "color1": "purple",
+    "color2": null,
+    "description": "Deal 11 damage to all Enemies. Convert Yellow Gems to Doomskulls."
+  },
+  "skeleton key": {
+    "id": 1214,
+    "color1": "brown",
+    "color2": null,
+    "description": "Deal 24 damage to the first and last enemies, boosted by my Gold. If an enemy dies, gain an Extra Turn."
+  },
+  "spider totem": {
+    "id": 0,
+    "color1": "green",
+    "color2": null,
+    "description": "Deal 24 damage to an enemy, drain their Mana and Web them. If the enemy was already Webbed, gain an extra turn."
+  },
+  "spiked manriki": {
+    "id": 1278,
+    "color1": "yellow",
+    "color2": null,
+    "description": "Deal 21 splash damage to an Enemy and the Enemy below them. Stun and inflict Bleed on the targeted Enemies."
+  },
+  "staff of st. astra": {
+    "id": 1141,
+    "color1": "yellow",
+    "color2": null,
+    "description": "Cleanse all allies and give all Allies 22 Life."
+  },
+  "staff of storms": {
+    "id": 1425,
+    "color1": "red",
+    "color2": "purple",
+    "description": "Explode 26 Yellow Gems. Grant a random Status Effect to all Stryx Allies. Then summon a Stryx Troop."
+  },
+  "staff of visions": {
+    "id": 0,
+    "color1": "purple",
+    "color2": null,
+    "description": "Give an ally 17 to a random skill, then give them Barrier and 3-15 Mana."
+  },
+  "summer's wonder": {
+    "id": 0,
+    "color1": "green",
+    "color2": null,
+    "description": "Deal 32 true scatter damage, boosted by Fey Allies and Enemies. If an Enemy dies, grant all Allies 2 random Positive Status Effects."
+  },
+  "symbol of anu": {
+    "id": 0,
+    "color1": "blue",
+    "color2": null,
+    "description": "Drain up to 12 Mana from and enemy and deal 20 damage. Create Gems of that troop's Mana Color equal to the Mana drained."
+  },
+  "thorodin": {
+    "id": 0,
+    "color1": "blue",
+    "color2": null,
+    "description": "Deal 25 splash damage to an Enemy, boosted by Giant Allies and Enemies."
+  },
+  "three sisters": {
+    "id": 0,
+    "color1": "blue",
+    "color2": null,
+    "description": "Deal 25 heavy splash damage to an Enemy, boosted by all Blue Allies and Enemies. If an Enemy dies, give 3 Magic to all Allies and Submerge them."
+  },
+  "thunderbird": {
+    "id": 0,
+    "color1": "yellow",
+    "color2": null,
+    "description": "Deal 24 true damage to an Enemy. If there is a Storm, deal 15 true damage to all Enemies. Then remove the Storm."
+  },
+  "tome of spores": {
+    "id": 1274,
+    "color1": "green",
+    "color2": "brown",
+    "description": "Deal 33 scatter damage, boosted by Amanithrax Allies. Explode 3 Gems for each Amanithrax Ally. Summon an Amanithrax Troop."
+  },
+  "trickster's shot": {
+    "id": 1201,
+    "color1": "green",
+    "color2": "purple",
+    "description": "Eliminate all Armor from an Enemy, and deal 22 damage. Gain 2 Magic, boosted by Armor eliminated."
+  },
+  "twin claws": {
+    "id": 1416,
+    "color1": "yellow",
+    "color2": "purple",
+    "description": "Explode 24 Green Gems. Grant a random Status Effect to all Beast Allies. Then summon a Beast Troop."
+  },
+  "warden's gauntlets": {
+    "id": 0,
+    "color1": "brown",
+    "color2": null,
+    "description": "Destroy a row and a column. Deal 23 scatter damage, boosted by Green Gems destroyed."
+  },
+  "warlord's battlecry": {
+    "id": 0,
+    "color1": "red",
+    "color2": null,
+    "description": "Deal 22 damage to an Enemy, boosted by the Enemy's Attack."
+  },
+  "wild cleaver": {
+    "id": 1402,
+    "color1": "blue",
+    "color2": "brown",
+    "description": "Explode 26 Green Gems. Grant a random Status Effect to all Wild Plains Allies. Then summon a Wild Plains Troop."
+  }
 }

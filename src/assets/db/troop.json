@@ -1,5 +1,6 @@
 {
 	"alchemist": {
+		"id": 6005,
 		"color1": "red",
 		"color2": "brown",
 		"color3": null,
@@ -10,6 +11,7 @@
 		"role": "generator"
 	},
 	"alderfather": {
+		"id": 6655,
 		"color1": "green",
 		"color2": "purple",
 		"color3": null,
@@ -20,6 +22,7 @@
 		"role": "warmaster"
 	},
 	"apothecary": {
+		"id": 6526,
 		"color1": "blue",
 		"color2": "green",
 		"color3": null,
@@ -29,7 +32,41 @@
 		"type2": "mystic",
 		"role": "generator"
 	},
+	"astral mother": {
+		"id": 7058,
+		"color1": "green",
+		"color2": "purple",
+		"color3": "yellow",
+		"kingdom": "divinion fields",
+		"delve": null,
+		"type1": "centaur",
+		"type2": "divine",
+		"role": "mage"
+	},
+	"autumnal imp": {
+		"id": 6153,
+		"color1": "brown",
+		"color2": null,
+		"color3": null,
+		"kingdom": "primal",
+		"delve": null,
+		"type1": "elemental",
+		"type2": null,
+		"role": "generator"
+	},
+	"azura": {
+		"id": 6405,
+		"color1": "blue",
+		"color2": "purple",
+		"color3": null,
+		"kingdom": "Merlantis",
+		"delve": null,
+		"type1": "merfolk",
+		"type2": "mystic",
+		"role": "generator"
+	},
 	"beastmaster torbern": {
+		"id": 6830,
 		"color1": "red",
 		"color2": "brown",
 		"color3": null,
@@ -39,7 +76,30 @@
 		"type2": "human",
 		"role": "warmaster"
 	},
+	"bile blackheart": {
+		"id": 7120,
+		"color1": "blue",
+		"color2": "red",
+		"color3": null,
+		"kingdom": "blackhawk",
+		"delve": "the black heart",
+		"type1": "daemon",
+		"type2": "rogue",
+		"role": "generator"
+	},
+	"cedric sparklesack": {
+		"id": 6498,
+		"color1": "blue",
+		"color2": "yellow",
+		"color3": null,
+		"kingdom": "the vault",
+		"delve": null,
+		"type1": "gnome",
+		"type2": null,
+		"role": "warmaster"
+	},
 	"charonas": {
+		"id": 7024,
 		"color1": "blue",
 		"color2": "brown",
 		"color3": null,
@@ -50,6 +110,7 @@
 		"role": "generator"
 	},
 	"chief dargon": {
+		"id": 0,
 		"color1": "red",
 		"color2": "yellow",
 		"color3": null,
@@ -59,7 +120,19 @@
 		"type2": "monster",
 		"role": "defender"
 	},
+	"chief stronghorn": {
+		"id": 6466,
+		"color1": "blue",
+		"color2": "brown",
+		"color3": null,
+		"kingdom": "wild plains",
+		"delve": null,
+		"type1": "tauros",
+		"type2": null,
+		"role": "assassin"
+	},
 	"child of summer": {
+		"id": 3059,
 		"color1": "green",
 		"color2": "yellow",
 		"color3": null,
@@ -69,7 +142,19 @@
 		"type2": null,
 		"role": "generator"
 	},
+	"cunning": {
+		"id": 6835,
+		"color1": "purple",
+		"color2": null,
+		"color3": null,
+		"kingdom": "guardians",
+		"delve": null,
+		"type1": "construct",
+		"type2": "raksha",
+		"role": "assassin"
+	},
 	"death": {
+		"id": 6200,
 		"color1": "blue",
 		"color2": "red",
 		"color3": "purple",
@@ -80,6 +165,7 @@
 		"role": "warlock"
 	},
 	"divine ishbaala": {
+		"id": 6479,
 		"color1": "yellow",
 		"color2": "purple",
 		"color3": null,
@@ -90,6 +176,7 @@
 		"role": "warmaster"
 	},
 	"divinia": {
+		"id": 6540,
 		"color1": "red",
 		"color2": "yellow",
 		"color3": null,
@@ -99,7 +186,19 @@
 		"type2": "dragon",
 		"role": "generator"
 	},
+	"dragon eggs": {
+		"id": 6230,
+		"color1": "yellow",
+		"color2": null,
+		"color3": null,
+		"kingdom": "dragon's claw",
+		"delve": null,
+		"type1": "dragon",
+		"type2": null,
+		"role": "warmaster"
+	},
 	"egg thief": {
+		"id": 6629,
 		"color1": "green",
 		"color2": "red",
 		"color3": null,
@@ -110,6 +209,7 @@
 		"role": "generator"
 	},
 	"emperinazara": {
+		"id": 0,
 		"color1": "green",
 		"color2": "brown",
 		"color3": null,
@@ -119,7 +219,63 @@
 		"type2": "naga",
 		"role": "warmaster"
 	},
+	"envy": {
+		"id": 6599,
+		"color1": "green",
+		"color2": "red",
+		"color3": null,
+		"kingdom": "sin of maraj",
+		"delve": null,
+		"type1": "daemon",
+		"type2": null,
+		"role": "striker"
+	},
+	"ferocity": {
+		"id": 6833,
+		"color1": "red",
+		"color2": null,
+		"color3": null,
+		"kingdom": "guardians",
+		"delve": null,
+		"type1": "construct",
+		"type2": "tauros",
+		"role": "assassin"
+	},
+	"finesse": {
+		"id": 6834,
+		"color1": "yellow",
+		"color2": null,
+		"color3": null,
+		"kingdom": "guardians",
+		"delve": null,
+		"type1": "construct",
+		"type2": "stryx",
+		"role": "assassin"
+	},
+	"forest guardian": {
+		"id": 6298,
+		"color1": "green",
+		"color2": "yellow",
+		"color3": null,
+		"kingdom": "maugrim woods",
+		"delve": null,
+		"type1": "beast",
+		"type2": "divine",
+		"role": "warmaster"
+	},
+	"forest troll": {
+		"id": 6419,
+		"color1": "blue",
+		"color2": "brown",
+		"color3": null,
+		"kingdom": "forest of thorns",
+		"delve": null,
+		"type1": "elemental",
+		"type2": "giant",
+		"role": "generator"
+	},
 	"gimlet stormbrew": {
+		"id": 6590,
 		"color1": "red",
 		"color2": "yellow",
 		"color3": null,
@@ -130,6 +286,7 @@
 		"role": "generator"
 	},
 	"glaycion": {
+		"id": 6565,
 		"color1": "purple",
 		"color2": "brown",
 		"color3": null,
@@ -139,7 +296,74 @@
 		"type2": "monster",
 		"role": "defender"
 	},
+	"goblin king": {
+		"id": 6076,
+		"color1": "green",
+		"color2": "brown",
+		"color3": null,
+		"kingdom": "zaejin",
+		"delve": null,
+		"type1": "goblin",
+		"type2": null,
+		"role": "warmaster"
+	},
+	"gorgon": {
+		"id": 6141,
+		"color1": "red",
+		"color2": "brown",
+		"color3": null,
+		"kingdom": "wild plains",
+		"delve": null,
+		"type1": "monster",
+		"type2": "tauros",
+		"role": "defender"
+	},
+	"grave seer": {
+		"id": 6612,
+		"color1": "red",
+		"color2": "yellow",
+		"color3": null,
+		"kingdom": "sword's edge",
+		"delve": "crypt keepers",
+		"type1": "mystic",
+		"type2": "undead",
+		"role": "generator"
+	},
+	"greed": {
+		"id": 6600,
+		"color1": "green",
+		"color2": "purple",
+		"color3": null,
+		"kingdom": "sin of maraj",
+		"delve": null,
+		"type1": "daemon",
+		"type2": null,
+		"role": "support"
+	},
+	"harpy mage": {
+		"id": 6754,
+		"color1": "red",
+		"color2": "yellow",
+		"color3": null,
+		"kingdom": "suncrest",
+		"delve": "stonesong eyrie",
+		"type1": "mystic",
+		"type2": "stryx",
+		"role": "generator"
+	},
+	"high paladin": {
+		"id": 6352,
+		"color1": "blue",
+		"color2": "red",
+		"color3": null,
+		"kingdom": "whitehelm",
+		"delve": null,
+		"type1": "divine",
+		"type2": "knight",
+		"role": "warrior"
+	},
 	"hive mind": {
+		"id": 0,
 		"color1": "yellow",
 		"color2": "purple",
 		"color3": null,
@@ -149,7 +373,19 @@
 		"type2": null,
 		"role": "support"
 	},
+	"hyndla frostcrown": {
+		"id": 6507,
+		"color1": "blue",
+		"color2": "green",
+		"color3": null,
+		"kingdom": "stormheim",
+		"delve": null,
+		"type1": "elemental",
+		"type2": "giant",
+		"role": "warmaster"
+	},
 	"indrajit": {
+		"id": 7039,
 		"color1": "red",
 		"color2": "purple",
 		"color3": null,
@@ -159,7 +395,30 @@
 		"type2": "raksha",
 		"role": "mage"
 	},
+	"infernal king": {
+		"id": 6183,
+		"color1": "yellow",
+		"color2": "purple",
+		"color3": null,
+		"kingdom": "blighted lands",
+		"delve": null,
+		"type1": "daemon",
+		"type2": null,
+		"role": "warmaster"
+	},
+	"jarl firemantle": {
+		"id": 6080,
+		"color1": "red",
+		"color2": "brown",
+		"color3": null,
+		"kingdom": "stormheim",
+		"delve": null,
+		"type1": "elemental",
+		"type2": "giant",
+		"role": "generator"
+	},
 	"judge of the dead": {
+		"id": 7025,
 		"color1": "purple",
 		"color2": "brown",
 		"color3": null,
@@ -170,6 +429,7 @@
 		"role": "mage"
 	},
 	"ketras the bull": {
+		"id": 6339,
 		"color1": "green",
 		"color2": "red",
 		"color3": "brown",
@@ -180,6 +440,7 @@
 		"role": "warrior"
 	},
 	"king bloodhammer": {
+		"id": 6566,
 		"color1": "red",
 		"color2": "brown",
 		"color3": null,
@@ -190,6 +451,7 @@
 		"role": "warmaster"
 	},
 	"king gobtruffle": {
+		"id": 6759,
 		"color1": "blue",
 		"color2": "green",
 		"color3": null,
@@ -200,6 +462,7 @@
 		"role": "generator"
 	},
 	"king minos": {
+		"id": 0,
 		"color1": "blue",
 		"color2": "green",
 		"color3": null,
@@ -210,6 +473,7 @@
 		"role": "mage"
 	},
 	"king of thieves": {
+		"id": 6763,
 		"color1": "red",
 		"color2": "purple",
 		"color3": null,
@@ -219,7 +483,30 @@
 		"type2": "rogue",
 		"role": "warrior"
 	},
+	"king silenus": {
+		"id": 6384,
+		"color1": "red",
+		"color2": "yellow",
+		"color3": null,
+		"kingdom": "pan's vale",
+		"delve": null,
+		"type1": "wildfolk",
+		"type2": null,
+		"role": "warrior"
+	},
+	"kraken": {
+		"id": 6275,
+		"color1": "green",
+		"color2": "purple",
+		"color3": null,
+		"kingdom": "blackhawk",
+		"delve": null,
+		"type1": "monster",
+		"type2": null,
+		"role": "assassin"
+	},
 	"lady morana": {
+		"id": 6613,
 		"color1": "blue",
 		"color2": "red",
 		"color3": null,
@@ -230,6 +517,7 @@
 		"role": "defender"
 	},
 	"leanansidhe": {
+		"id": 7062,
 		"color1": "yellow",
 		"color2": "purple",
 		"color3": null,
@@ -240,6 +528,7 @@
 		"role": "mage"
 	},
 	"leprechaun": {
+		"id": 6638,
 		"color1": "green",
 		"color2": "purple",
 		"color3": null,
@@ -250,6 +539,7 @@
 		"role": "generator"
 	},
 	"luna": {
+		"id": 0,
 		"color1": "green",
 		"color2": "yellow",
 		"color3": null,
@@ -259,7 +549,19 @@
 		"type2": "wildfolk",
 		"role": "mage"
 	},
+	"lust": {
+		"id": 6605,
+		"color1": "blue",
+		"color2": "purple",
+		"color3": null,
+		"kingdom": "sin of maraj",
+		"delve": null,
+		"type1": "daemon",
+		"type2": "mystic",
+		"role": "warlock"
+	},
 	"lyrasza": {
+		"id": 6847,
 		"color1": "blue",
 		"color2": "purple",
 		"color3": null,
@@ -270,6 +572,7 @@
 		"role": "mage"
 	},
 	"magma dragon": {
+		"id": 7154,
 		"color1": "red",
 		"color2": "brown",
 		"color3": null,
@@ -279,7 +582,41 @@
 		"type2": "elemental",
 		"role": "mage"
 	},
+	"magnus": {
+		"id": 6478,
+		"color1": "purple",
+		"color2": "brown",
+		"color3": null,
+		"kingdom": "darkstone",
+		"delve": null,
+		"type1": "human",
+		"type2": null,
+		"role": "mage"
+	},
+	"malcandessa": {
+		"id": 6842,
+		"color1": "blue",
+		"color2": "purple",
+		"color3": null,
+		"kingdom": "zhul'kari",
+		"delve": null,
+		"type1": "elf",
+		"type2": "mystic",
+		"role": "generator"
+	},
+	"marilith": {
+		"id": 6202,
+		"color1": "green",
+		"color2": "red",
+		"color3": null,
+		"kingdom": "mist of scales",
+		"delve": null,
+		"type1": "daemon",
+		"type2": "naga",
+		"role": "generator"
+	},
 	"matron velenne": {
+		"id": 6950,
 		"color1": "green",
 		"color2": "purple",
 		"color3": null,
@@ -289,7 +626,19 @@
 		"type2": null,
 		"role": "assassin"
 	},
+	"megavore": {
+		"id": 6571,
+		"color1": "blue",
+		"color2": "red",
+		"color3": "brown",
+		"kingdom": "blackhawk",
+		"delve": null,
+		"type1": "merfolk",
+		"type2": "monster",
+		"role": "assassin"
+	},
 	"mercy": {
+		"id": 6167,
 		"color1": "blue",
 		"color2": "green",
 		"color3": null,
@@ -299,7 +648,19 @@
 		"type2": null,
 		"role": "generator"
 	},
+	"monkey disciple": {
+		"id": 6413,
+		"color1": "blue",
+		"color2": "green",
+		"color3": null,
+		"kingdom": "shentang",
+		"delve": null,
+		"type1": "divine",
+		"type2": "wildfolk",
+		"role": "support"
+	},
 	"moon rabbit": {
+		"id": 6677,
 		"color1": "green",
 		"color2": "purple",
 		"color3": null,
@@ -310,6 +671,7 @@
 		"role": "generator"
 	},
 	"moonsinger": {
+		"id": 6779,
 		"color1": "blue",
 		"color2": "yellow",
 		"color3": null,
@@ -319,7 +681,30 @@
 		"type2": null,
 		"role": "generator"
 	},
+	"mummified king": {
+		"id": 6286,
+		"color1": "yellow",
+		"color2": "purple",
+		"color3": null,
+		"kingdom": "khetar",
+		"delve": null,
+		"type1": "undead",
+		"type2": null,
+		"role": "striker"
+	},
+	"nexus portal": {
+		"id": 7093,
+		"color1": "purple",
+		"color2": "brown",
+		"color3": null,
+		"kingdom": "nexus",
+		"delve": null,
+		"type1": "construct",
+		"type2": "elemental",
+		"role": "generator"
+	},
 	"nocturnia": {
+		"id": 0,
 		"color1": "purple",
 		"color2": "brown",
 		"color3": null,
@@ -330,6 +715,7 @@
 		"role": "striker"
 	},
 	"nyar'mel": {
+		"id": 0,
 		"color1": "red",
 		"color2": "purple",
 		"color3": null,
@@ -340,6 +726,7 @@
 		"role": "striker"
 	},
 	"qilin": {
+		"id": 6678,
 		"color1": "red",
 		"color2": "yellow",
 		"color3": null,
@@ -350,6 +737,7 @@
 		"role": "warmaster"
 	},
 	"queen beetrix": {
+		"id": 6863,
 		"color1": "blue",
 		"color2": "green",
 		"color3": null,
@@ -359,7 +747,30 @@
 		"type2": "wildfolk",
 		"role": "generator"
 	},
+	"queen grapplepot": {
+		"id": 6391,
+		"color1": "green",
+		"color2": "yellow",
+		"color3": null,
+		"kingdom": "zaejin",
+		"delve": null,
+		"type1": "goblin",
+		"type2": null,
+		"role": "mage"
+	},
+	"queen mab": {
+		"id": 6191,
+		"color1": "blue",
+		"color2": "purple",
+		"color3": null,
+		"kingdom": "glacial peaks",
+		"delve": null,
+		"type1": "fey",
+		"type2": null,
+		"role": "mage"
+	},
 	"queen titania": {
+		"id": 6427,
 		"color1": "red",
 		"color2": "purple",
 		"color3": null,
@@ -370,6 +781,7 @@
 		"role": "mage"
 	},
 	"queen xochi": {
+		"id": 6755,
 		"color1": "yellow",
 		"color2": "brown",
 		"color3": null,
@@ -379,7 +791,19 @@
 		"type2": "stryx",
 		"role": "mage"
 	},
+	"raksha free-blood": {
+		"id": 6633,
+		"color1": "blue",
+		"color2": "brown",
+		"color3": null,
+		"kingdom": "pridelands",
+		"delve": null,
+		"type1": "raksha",
+		"type2": null,
+		"role": "striker"
+	},
 	"rowanne": {
+		"id": 6087,
 		"color1": "blue",
 		"color2": "green",
 		"color3": null,
@@ -389,7 +813,41 @@
 		"type2": "fey",
 		"role": "mage"
 	},
+	"satyr musician": {
+		"id": 6253,
+		"color1": "yellow",
+		"color2": "brown",
+		"color3": null,
+		"kingdom": "pan's vale",
+		"delve": null,
+		"type1": "wildflok",
+		"type2": null,
+		"role": "warlock"
+	},
+	"scylla": {
+		"id": 6460,
+		"color1": "blue",
+		"color2": "purple",
+		"color3": null,
+		"kingdom": "blackhawk",
+		"delve": null,
+		"type1": "merfolk",
+		"type2": "monster",
+		"role": "assassin"
+	},
+	"sekhma": {
+		"id": 6354,
+		"color1": "red",
+		"color2": "purple",
+		"color3": null,
+		"kingdom": "pridelands",
+		"delve": null,
+		"type1": "mystic",
+		"type2": "raksha",
+		"role": "warmaster"
+	},
 	"shahbanu vespera": {
+		"id": 6817,
 		"color1": "blue",
 		"color2": "yellow",
 		"color3": "purple",
@@ -400,6 +858,7 @@
 		"role": "support"
 	},
 	"shoggorath": {
+		"id": 7021,
 		"color1": "blue",
 		"color2": "purple",
 		"color3": null,
@@ -410,6 +869,7 @@
 		"role": "striker"
 	},
 	"silent sentinel": {
+		"id": 0,
 		"color1": "blue",
 		"color2": "yellow",
 		"color3": null,
@@ -420,6 +880,7 @@
 		"role": "defender"
 	},
 	"sledgepaw": {
+		"id": 0,
 		"color1": "yellow",
 		"color2": "brown",
 		"color3": null,
@@ -429,7 +890,41 @@
 		"type2": "wildfolk",
 		"role": "warrior"
 	},
+	"smashedmouth": {
+		"id": 6926,
+		"color1": "green",
+		"color2": "red",
+		"color3": null,
+		"kingdom": "zaejin",
+		"delve": null,
+		"type1": "giant",
+		"type2": "goblin",
+		"role": "warrior"
+	},
+	"statue of  st. veritas": {
+		"id": 6517,
+		"color1": "blue",
+		"color2": "brown",
+		"color3": null,
+		"kingdom": "whitehelm",
+		"delve": null,
+		"type1": "divine",
+		"type2": null,
+		"role": "defender"
+	},
+	"stringfiddler": {
+		"id": 6783,
+		"color1": "green",
+		"color2": "purple",
+		"color3": null,
+		"kingdom": "zaejin",
+		"delve": null,
+		"type1": "goblin",
+		"type2": null,
+		"role": "generator"
+	},
 	"tai-pan": {
+		"id": 6535,
 		"color1": "blue",
 		"color2": "green",
 		"color3": null,
@@ -439,7 +934,19 @@
 		"type2": null,
 		"role": "generator"
 	},
+	"taloca": {
+		"id": 6584,
+		"color1": "blue",
+		"color2": "yellow",
+		"color3": null,
+		"kingdom": "suncrest",
+		"delve": null,
+		"type1": "elemental",
+		"type2": "stryx",
+		"role": "mage"
+	},
 	"tartarus": {
+		"id": 6874,
 		"color1": "yellow",
 		"color2": "purple",
 		"color3": null,
@@ -450,6 +957,7 @@
 		"role": "warrior"
 	},
 	"tesla": {
+		"id": 6320,
 		"color1": "blue",
 		"color2": "red",
 		"color3": null,
@@ -460,6 +968,7 @@
 		"role": "mage"
 	},
 	"the deep king": {
+		"id": 0,
 		"color1": "blue",
 		"color2": "brown",
 		"color3": null,
@@ -469,7 +978,19 @@
 		"type2": null,
 		"role": "warrior"
 	},
-	"the frotfire king": {
+	"the dragon soul": {
+		"id": 6236,
+		"color1": "red",
+		"color2": "purple",
+		"color3": null,
+		"kingdom": "dragon's claw",
+		"delve": null,
+		"type1": "dragon",
+		"type2": "mystic",
+		"role": "generator"
+	},
+	"the frostfire king": {
+		"id": 0,
 		"color1": "blue",
 		"color2": "red",
 		"color3": null,
@@ -480,6 +1001,7 @@
 		"role": "mage"
 	},
 	"the great wyrm": {
+		"id": 7087,
 		"color1": "red",
 		"color2": "yellow",
 		"color3": null,
@@ -490,6 +1012,7 @@
 		"role": "mage"
 	},
 	"the maraji queen": {
+		"id": 6751,
 		"color1": "blue",
 		"color2": "red",
 		"color3": null,
@@ -500,6 +1023,7 @@
 		"role": "warmaster"
 	},
 	"the mirror queen": {
+		"id": 0,
 		"color1": "yellow",
 		"color2": "purple",
 		"color3": null,
@@ -510,6 +1034,7 @@
 		"role": "assassin"
 	},
 	"the scourge of honor": {
+		"id": 6984,
 		"color1": "green",
 		"color2": "red",
 		"color3": "brown",
@@ -520,6 +1045,7 @@
 		"role": "mage"
 	},
 	"the wendigo": {
+		"id": 6794,
 		"color1": "green",
 		"color2": "red",
 		"color3": null,
@@ -530,6 +1056,7 @@
 		"role": "mage"
 	},
 	"the wild queen": {
+		"id": 0,
 		"color1": "green",
 		"color2": "brown",
 		"color3": "purple",
@@ -539,7 +1066,19 @@
 		"type2": "wildfolk",
 		"role": "warmaster"
 	},
+	"thrall": {
+		"id": 6146,
+		"color1": "purple",
+		"color2": null,
+		"color3": null,
+		"kingdom": "darkstone",
+		"delve": null,
+		"type1": "human",
+		"type2": null,
+		"role": "generator"
+	},
 	"tink steamwhistle": {
+		"id": 0,
 		"color1": "yellow",
 		"color2": "brown",
 		"color3": null,
@@ -549,7 +1088,63 @@
 		"type2": "mech",
 		"role": "warmaster"
 	},
+	"toadsqueezer": {
+		"id": 6784,
+		"color1": "blue",
+		"color2": "red",
+		"color3": null,
+		"kingdom": "zaejin",
+		"delve": null,
+		"type1": "goblin",
+		"type2": null,
+		"role": "striker"
+	},
+	"tomb robber": {
+		"id": 6762,
+		"color1": "blue",
+		"color2": "purple",
+		"color3": null,
+		"kingdom": "leonis empire",
+		"delve": "city of thieves",
+		"type1": "human",
+		"type2": "rogue",
+		"role": "warmaster"
+	},
+	"treachery": {
+		"id": 6831,
+		"color1": "blue",
+		"color2": null,
+		"color3": null,
+		"kingdom": "guardians",
+		"delve": null,
+		"type1": "construct",
+		"type2": "naga",
+		"role": "assassin"
+	},
+	"umbral portal": {
+		"id": 7124,
+		"color1": "yellow",
+		"color2": "purple",
+		"color3": null,
+		"kingdom": "nexus",
+		"delve": "umbral nexus",
+		"type1": "construct",
+		"type2": "elemental",
+		"role": "generator"
+	},
+	"umenath": {
+		"id": 6826,
+		"color1": "green",
+		"color2": "red",
+		"color3": "brown",
+		"kingdom": "pridelands",
+		"delve": null,
+		"type1": "divine",
+		"type2": "raksha",
+		"role": "assassin"
+	},
 	"valkyrie": {
+		"id": 6062,
 		"color1": "red",
 		"color2": "yellow",
 		"color3": null,
@@ -560,6 +1155,7 @@
 		"role": "generator"
 	},
 	"vanya soulmourn": {
+		"id": 6713,
 		"color1": "yellow",
 		"color2": "purple",
 		"color3": null,
@@ -569,7 +1165,41 @@
 		"type2": "undead",
 		"role": "mage"
 	},
+	"venoxia": {
+		"id": 6070,
+		"color1": "green",
+		"color2": "purple",
+		"color3": null,
+		"kingdom": "mist of scales",
+		"delve": null,
+		"type1": "dragon",
+		"type2": null,
+		"role": "generator"
+	},
+	"webspinner": {
+		"id": 6068,
+		"color1": "blue",
+		"color2": "green",
+		"color3": null,
+		"kingdom": "zhul'kari",
+		"delve": null,
+		"type1": "daemon",
+		"type2": null,
+		"role": "mage"
+	},
+	"willow": {
+		"id": 6528,
+		"color1": "green",
+		"color2": "brown",
+		"color3": null,
+		"kingdom": "silverglade",
+		"delve": null,
+		"type1": "beast",
+		"type2": "elemental",
+		"role": "mage"
+	},
 	"wrath": {
+		"id": 6604,
 		"color1": "yellow",
 		"color2": "brown",
 		"color3": null,
@@ -580,6 +1210,7 @@
 		"role": "warmaster"
 	},
 	"xerodar": {
+		"id": 0,
 		"color1": "green",
 		"color2": "purple",
 		"color3": null,
@@ -590,6 +1221,7 @@
 		"role": "warrior"
 	},
 	"yao guai": {
+		"id": 6418,
 		"color1": "green",
 		"color2": "red",
 		"color3": null,
