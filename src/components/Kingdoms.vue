@@ -33,14 +33,14 @@
             <td>
               <div class="upgrade">
                 <integer-plusminus :min="0" :max="kingdomMaxLevel" v-model="kingdom.level" @ipm-increment="incrementUpgrade(kingdom, 'level')" @ipm-decrement="incrementUpgrade(kingdom, 'level', true)">
-                  <span class="badge" :class="(nextStepLevel > kingdom.level) ? 'upgrade-low' : 'upgrade-ok'">{{ kingdom.level }}</span>
+                  <span class="badge" :class="getLevelCssClass(kingdom.level)">{{ kingdom.level }}</span>
                 </integer-plusminus>
               </div>
             </td>
             <td>
               <div class="upgrade">
                 <integer-plusminus :min="0" :max="kingdomMaxPower" v-model="kingdom.power" @ipm-increment="incrementUpgrade(kingdom, 'power')" @ipm-decrement="incrementUpgrade(kingdom, 'power', true)">
-                  <span class="badge" :class="(nextStepPower > kingdom.power) ? 'upgrade-low' : 'upgrade-ok'">{{ kingdom.power }}</span>
+                  <span class="badge" :class="getPowerCssClass(kingdom.power)">{{ kingdom.power }}</span>
                 </integer-plusminus>
               </div>
             </td>
@@ -111,6 +111,16 @@ export default {
     filterBy (upgradeName) {
       this.lowUpgradefilter = upgradeName
       this.filterKingdoms()
+    },
+    getLevelCssClass (level) {
+      if (level === this.kingdomMaxLevel) return 'upgrade-max'
+      if (this.nextStepLevel > level) return 'upgrade-low'
+      return 'upgrade-ok'
+    },
+    getPowerCssClass (power) {
+      if (power === this.kingdomMaxPower) return 'upgrade-max'
+      if (this.nextStepPower > power) return 'upgrade-low'
+      return 'upgrade-ok'
     }
   }
 }
@@ -146,6 +156,10 @@ export default {
 
     &.upgrade-ok {
       background-color: var(--success);
+    }
+
+    &.upgrade-max {
+      background-color: var(--info);
     }
   }
 

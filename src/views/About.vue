@@ -12,6 +12,7 @@
     </p>
 
     <hr />
+    <ResetButtonLight />
     <ResetButton />
 
   </div>
@@ -19,10 +20,11 @@
 
 <script>
 import ResetButton from '@/components/resetButton.vue'
+import ResetButtonLight from '@/components/resetButtonLight.vue'
 
 export default {
   components: {
-    ResetButton
+    ResetButton, ResetButtonLight
   }
 }
 </script>

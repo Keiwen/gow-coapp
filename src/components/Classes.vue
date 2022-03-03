@@ -26,7 +26,7 @@
             <td>
               <div class="upgrade">
                 <integer-plusminus :min="0" :max="classMaxTalent" v-model="gowClass.talent" @ipm-increment="incrementUpgrade(gowClass, 'talent')" @ipm-decrement="incrementUpgrade(gowClass, 'talent', true)">
-                  <span class="badge" :class="(nextStepTalent > gowClass.talent) ? 'upgrade-low' : 'upgrade-ok'">{{ gowClass.talent }}</span>
+                  <span class="badge" :class="getTalentCssClass(gowClass.talent)">{{ gowClass.talent }}</span>
                 </integer-plusminus>
               </div>
             </td>
@@ -93,6 +93,11 @@ export default {
     filterBy (upgradeName) {
       this.lowUpgradefilter = upgradeName
       this.filterClasses()
+    },
+    getTalentCssClass (talent) {
+      if (talent === this.classMaxTalent) return 'upgrade-max'
+      if (this.nextStepTalent > talent) return 'upgrade-low'
+      return 'upgrade-ok'
     }
   }
 }
@@ -128,6 +133,10 @@ export default {
 
     &.upgrade-ok {
       background-color: var(--success);
+    }
+
+    &.upgrade-max {
+      background-color: var(--info);
     }
   }
 

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <button class="btn btn-warning" @click="resetData">Reset all data</button>
+    <button class="btn btn-warning" @click="resetData">Refresh app</button>
   </div>
 </template>
 
@@ -9,9 +9,9 @@ import { mapActions } from 'vuex'
 
 export default {
   methods: {
-    ...mapActions(['resetStorage']),
+    ...mapActions(['resetStorageLight']),
     resetData () {
-      this.resetStorage()
+      this.resetStorageLight()
     }
   }
 }

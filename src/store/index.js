@@ -11,6 +11,11 @@ import GowWeapon from '@/assets/db/weapon.json'
 import GowTroop from '@/assets/db/troop.json'
 import OTM from '@/assets/db/otm.json'
 
+// Note on team 'code': 13 values, comma separated
+// first 4: troops 'id'
+// next 1: banner id
+// last 8: 7 talents position (1 to 3, or 0 if unset) + class id
+
 Vue.use(Vuex)
 const debug = process.env.NODE_ENV !== 'production'
 const persistOptions = {
@@ -32,6 +37,7 @@ export default new Vuex.Store({
       'charonas',
       'death',
       'queen beetrix',
+      'forest troll',
       'moonsinger',
       'ketras the bull',
       'egg thief',
@@ -39,6 +45,7 @@ export default new Vuex.Store({
       'king bloodhammer',
       'gimlet stormbrew',
       'wrath',
+      'sekhma',
       'yao guai',
       'queen titania',
       'king of thieves',
@@ -48,13 +55,20 @@ export default new Vuex.Store({
       'alchemist',
       'rowanne',
       'the wild queen',
-      'shahbanu vespera'
+      'shahbanu vespera',
+      'bile blackheart',
+      'finesse',
+      'treachery',
+      'venoxia',
+      'webspinner',
+      'megavore',
+      'thrall'
     ],
     upgradesMilestones: {
-      level: [1, 10, 15, 20],
+      level: [1, 6, 10, 15, 18, 20],
       power: [1, 5, 10, 15, 20, 25, 30],
-      renown: [100, 500, 1000, 1500, 1800, 1900, 2000, 2500],
-      quality: [1, 5, 10],
+      renown: [100, 500, 1000, 1500, 1800, 2000, 2500],
+      quality: [1, 4, 7, 10],
       talent: [1, 3, 5, 6, 7]
     },
     inventory: {
@@ -377,6 +391,16 @@ export default new Vuex.Store({
       for (const otm in OTM) {
         localStorage.removeItem('gowotm:' + otm)
       }
+      location.reload()
+    },
+    resetStorageLight () {
+      const fullStorage = JSON.parse(localStorage.getItem(persistOptions.key))
+      const toKeep = {
+        inventory: fullStorage.inventory,
+        increasedDropKingdoms: fullStorage.increasedDropKingdoms,
+        upgrades: fullStorage.upgrades
+      }
+      localStorage.setItem(persistOptions.key, JSON.stringify(toKeep))
       location.reload()
     },
     changeUpgrade ({ state, getters, commit }, payload) {

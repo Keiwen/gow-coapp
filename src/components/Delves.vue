@@ -33,14 +33,14 @@
             <td>
               <div class="upgrade">
                 <integer-plusminus :min="0" :max="delveMaxRenown" :step="100" v-model="delve.renown" @ipm-increment="incrementUpgrade(delve, 'renown')" @ipm-decrement="incrementUpgrade(delve, 'renown', true)">
-                  <span class="badge" :class="(nextStepRenown > delve.renown) ? 'upgrade-low' : 'upgrade-ok'">{{ delve.renown }}</span>
+                  <span class="badge" :class="getRenownCssClass(delve.renown)">{{ delve.renown }}</span>
                 </integer-plusminus>
               </div>
             </td>
             <td>
               <div class="upgrade">
                 <integer-plusminus :min="0" :max="delveMaxQuality" v-model="delve.quality" @ipm-increment="incrementUpgrade(delve, 'quality')" @ipm-decrement="incrementUpgrade(delve, 'quality', true)">
-                  <span class="badge" :class="(nextStepQuality > delve.quality) ? 'upgrade-low' : 'upgrade-ok'">{{ delve.quality }}</span>
+                  <span class="badge" :class="getQualityCssClass(delve.quality)">{{ delve.quality }}</span>
                 </integer-plusminus>
               </div>
             </td>
@@ -124,6 +124,16 @@ export default {
       }).then(() => {
         this.filterDelves()
       })
+    },
+    getRenownCssClass (renown) {
+      if (renown === this.delveMaxRenown) return 'upgrade-max'
+      if (this.nextStepRenown > renown) return 'upgrade-low'
+      return 'upgrade-ok'
+    },
+    getQualityCssClass (quality) {
+      if (quality === this.delveMaxQuality) return 'upgrade-max'
+      if (this.nextStepQuality > quality) return 'upgrade-low'
+      return 'upgrade-ok'
     }
   }
 }
@@ -178,6 +188,10 @@ export default {
 
     &.upgrade-ok {
       background-color: var(--success);
+    }
+
+    &.upgrade-max {
+      background-color: var(--info);
     }
   }
 
