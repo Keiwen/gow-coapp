@@ -2,7 +2,7 @@
 
 <a target="_blank" href="https://keiwen.github.io/gow-coapp/">Try it on web browser</a> and get mobile app (see below)!
 
-Current version is 1.0.1
+Current version is 1.0.2
 - Last data update on 2022-02-04 (Fire rift delve)
 
 ## Features
