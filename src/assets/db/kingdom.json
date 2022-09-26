@@ -14,6 +14,7 @@
     "ghulvania": { "arcane": "dark", "mastery": "purple"},
     "glacial peaks": { "arcane": "spirit", "mastery": "blue"},
     "grosh-nak": { "arcane": "lava", "mastery": "red"},
+    "hellcrag": { "arcane": "spirit", "mastery": "red"},
     "karakoth": { "arcane": "death", "mastery": "purple"},
     "khaziel": { "arcane": "deep", "mastery": "brown"},
     "khetar": { "arcane": "spirit", "mastery": "purple"},
@@ -141,6 +142,11 @@
       "color1": "yellow",
       "color2": "blue",
       "kingdom": "glacial peaks"
+    },
+    "obsidian depths": {
+      "color1": "purple",
+      "color2": "brown",
+      "kingdom": "hellcrag"
     },
     "primal rift": {
       "color1": "purple",

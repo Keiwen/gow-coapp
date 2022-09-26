@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/gow-coapp/precache-manifest.fa026e2cf5bca339b7e99b770696bceb.js"
+  "/gow-coapp/precache-manifest.04f09ac636ccf0c85955220585d72bce.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "gow-coapp"});
