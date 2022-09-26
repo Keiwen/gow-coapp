@@ -669,6 +669,18 @@
       "weapon": "orb of winter",
       "kingdom": "glacial peaks"
     },
+    "geomancer": {
+      "id": 14035,
+      "tree1": "stone",
+      "tree2": "arcane",
+      "tree3": "knowledge",
+      "trait1": "stone heart",
+      "trait2": "stoneskin",
+      "trait3": "infused stone",
+      "troop": "construct",
+      "weapon": "the molten dripper",
+      "kingdom": "hellcrag"
+    },
     "hierophant": {
       "id": 14024,
       "tree1": "fire",

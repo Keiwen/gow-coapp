@@ -269,6 +269,12 @@
     "color2": null,
     "description": "Drain up to 12 Mana from and enemy and deal 20 damage. Create Gems of that troop's Mana Color equal to the Mana drained."
   },
+  "the molten dripper": {
+    "id": 0,
+    "color1": "brown",
+    "color2": null,
+    "description": "Explode a Column. Create a Gargoyle Gem for each Red or Brown Gem in the chosen Column."
+  },
   "thorodin": {
     "id": 0,
     "color1": "blue",
