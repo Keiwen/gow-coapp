@@ -1,10 +1,10 @@
 <template>
   <div class="about">
 
-    <p>Last update: 2022-02-04</p>
-    <div>Last class added: Elementalist</div>
-    <div>Last kingdom added: Nexus</div>
-    <div>Last delve added: Fire rift</div>
+    <p>Last update: 2023-02-20</p>
+    <div>Last class added: Geomancer</div>
+    <div>Last kingdom added: Vulpacea</div>
+    <div>Last delve added: Obsidian Depths</div>
 
     <hr />
     <p>

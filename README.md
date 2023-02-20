@@ -2,8 +2,8 @@
 
 <a target="_blank" href="https://keiwen.github.io/gow-coapp/">Try it on web browser</a> and get mobile app (see below)!
 
-Current version is 1.0.2
-- Last data update on 2022-09-26 (Obsidian depths delve)
+Current version is 1.0.3
+- Last data update on 2023-02-20 (Vulpacea kingdom)
 
 ## Features
 - Upgrades tracking for classes, kingdoms, delves
