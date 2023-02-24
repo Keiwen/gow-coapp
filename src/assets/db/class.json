@@ -837,6 +837,18 @@
       "weapon": "deathdealer",
       "kingdom": "dhrak-zum"
     },
+    "spiritwalker": {
+      "id": 14036,
+      "tree1": "arcane",
+      "tree2": "life",
+      "tree3": "forest",
+      "trait1": "wargare bond",
+      "trait2": "spell armor",
+      "trait3": "spirit drain",
+      "troop": "wargare",
+      "weapon": "spiritshot",
+      "kingdom": "vulpacea"
+    },
     "sorcerer": {
       "id": 14005,
       "tree1": "knowledge",

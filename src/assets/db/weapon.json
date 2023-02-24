@@ -239,6 +239,12 @@
     "color2": null,
     "description": "Deal 21 splash damage to an Enemy and the Enemy below them. Stun and inflict Bleed on the targeted Enemies."
   },
+  "spiritshot": {
+    "id": 0,
+    "color1": "greenred",
+    "color2": null,
+    "description": "Choose one: Create 8 Spirit Gems, and gain an extra turn. OR Deal 47 true damage to a random Enemy."
+  },
   "staff of st. astra": {
     "id": 1141,
     "color1": "yellow",

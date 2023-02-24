@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "247bd5452bec6c7f6150",
+    "revision": "49c2073d1b4aca140ae9",
     "url": "/gow-coapp/css/app.4f7af40f.css"
   },
   {
@@ -20,16 +20,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/gow-coapp/css/chunk-2e1b3403.fab284c9.css"
   },
   {
-    "revision": "d1ed214fff96f2f6e31b8407c22ebe8c",
+    "revision": "f7e42f17ceef4059fef8a65c8b77e759",
     "url": "/gow-coapp/index.html"
   },
   {
-    "revision": "1b4d7d049f3066841f26",
-    "url": "/gow-coapp/js/about.cd64689d.js"
+    "revision": "c7d82f37bdc99a99a6c7",
+    "url": "/gow-coapp/js/about.af6d37a0.js"
   },
   {
-    "revision": "247bd5452bec6c7f6150",
-    "url": "/gow-coapp/js/app.7a6a9757.js"
+    "revision": "49c2073d1b4aca140ae9",
+    "url": "/gow-coapp/js/app.b5150ddf.js"
   },
   {
     "revision": "a41c0fa5da2b76b874f4",

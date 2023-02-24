@@ -1,8 +1,8 @@
 <template>
   <div class="about">
 
-    <p>Last update: 2023-02-20</p>
-    <div>Last class added: Geomancer</div>
+    <p>Last update: 2023-02-24</p>
+    <div>Last class added: Spiritwalker</div>
     <div>Last kingdom added: Vulpacea</div>
     <div>Last delve added: Obsidian Depths</div>
 
@@ -13,6 +13,7 @@
 
     <hr />
     <ResetButtonLight />
+    <br /><br />
     <ResetButton />
 
   </div>
