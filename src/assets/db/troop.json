@@ -989,6 +989,17 @@
 		"type2": "mystic",
 		"role": "generator"
 	},
+	"the foxfire king": {
+		"id": 0,
+		"color1": "green",
+		"color2": "red",
+		"color3": null,
+		"kingdom": "vulpacea",
+		"delve": "court of foxes",
+		"type1": "wargare",
+		"type2": "fey",
+		"role": "mage"
+	},
 	"the frostfire king": {
 		"id": 0,
 		"color1": "blue",
